@@ -1,0 +1,18 @@
+<table>
+    <thead>
+    <tr>
+        <th>Serial</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Example</td>
+        <td>example@gamil.com</td>
+        <td>12345678</td>
+    </tr>
+    </tbody>
+</table>
