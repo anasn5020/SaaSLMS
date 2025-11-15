@@ -1,0 +1,256 @@
+/*=== BANNER AREA CSS ===*/
+.university .banner_area {
+  background-color: var(--frontend-overlay, #1F252F);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.university .banner_area::before {
+  content: "";
+  background-color: rgba(var(--frontend-overlay, #1F252F), 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.university .banner_area_content {
+  padding: 170px 0px;
+  min-height: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10%;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .university .banner_area_content {
+    padding-right: 5%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .banner_area_content {
+    padding: 130px 0px;
+    min-height: 670px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .banner_area_content {
+    padding: 100px 0px;
+    min-height: 500px;
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .banner_area_content {
+    min-height: auto;
+    padding: 70px 0px;
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .banner_area_content {
+    min-height: auto;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    text-align: center;
+    padding-right: 0px;
+  }
+}
+
+.university .banner_area_content > span {
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--frontend-white, #ffffff);
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .banner_area_content > span {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .banner_area_content > span {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .banner_area_content > span {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}
+
+.university .banner_area_content h1 {
+  font-size: 60px;
+  line-height: 1.25;
+  margin-bottom: 60px;
+  color: var(--frontend-white, #ffffff);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .banner_area_content h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .banner_area_content h1 {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .banner_area_content h1 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .banner_area_content h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .university .banner_area_content h1 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .university .banner_area_content h1 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .banner_area_content h1 {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .banner_area_content h1 {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .banner_area_content h1 {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .banner_area_content h1 {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .university .banner_area_content h1 {
+    margin-bottom: 25px;
+  }
+}
+
+.university .banner_area_content p {
+  font-size: 18px;
+  line-height: 1.66667;
+  padding-right: 30%;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .university .banner_area_content p {
+    padding-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .banner_area_content p {
+    padding-right: 10%;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .banner_area_content p {
+    padding-right: 0%;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .banner_area_content p {
+    padding-right: 10%;
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .banner_area_content p {
+    padding-right: 0px;
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .university .banner_area_content p {
+    margin-bottom: 20px;
+  }
+}
+
+.university .banner_area_content a {
+  border: 1px solid;
+  line-height: 23px;
+}
+
+.university .banner_area_content a:hover {
+  background-color: var(--frontend-primary-2, #00124E) !important;
+  border-color: transparent !important;
+}
+
+.university .banner_area_content a:first-child {
+  border-color: var(--frontend-primary-border, #F3A75A);
+  margin-right: 10px;
+}
+
+.university .banner_area_content a:last-child {
+  background-color: #122643;
+  border-color: var(--frontend-primary-2-border, #4A586F);
+}
+
+@media only screen and (max-width: 767px) {
+  .university .banner_area_content .d-flex {
+    justify-content: center;
+  }
+}
+
+.university #bannerSlider .owl-nav button {
+  left: var(--owl-button-position);
+}
+
+.university #bannerSlider .owl-nav button:last-child {
+  left: auto;
+  right: var(--owl-button-position);
+}

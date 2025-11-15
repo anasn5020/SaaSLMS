@@ -1,0 +1,171 @@
+@media (min-width: 1500px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1410px;
+  }
+}
+
+.banner-area {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .banner-area {
+    padding-bottom: 120px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .banner-area {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .banner-area {
+    padding-bottom: 70px;
+  }
+}
+
+.banner-area h1 {
+  font-size: 64px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #1F2B40;
+  margin-bottom: 46px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .banner-area h1 {
+    font-size: 54px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .banner-area h1 {
+    font-size: 48px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .banner-area h1 {
+    font-size: 38px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .banner-area h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .banner-area h1 {
+    margin-bottom: 34px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .banner-area h1 {
+    margin-bottom: 26px;
+  }
+}
+
+.banner-area p {
+  color: #656A7B;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .banner-area p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-area p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-area p {
+    font-size: 14px;
+  }
+}
+
+.banner-area-btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+html[dir=rtl] .banner-area-btns i {
+  text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-area-btns {
+    justify-content: center;
+  }
+}
+
+.banner-area-btns a {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 500;
+  padding: 0 30px;
+  gap: 10px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .banner-area-btns a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .banner-area-btns a {
+    font-size: 13px;
+  }
+}
+
+html[dir=rtl] .banner-area-btns a i {
+  transform: scale(-1);
+}
+
+@media only screen and (max-width: 991px) {
+  .banner-area-btns a {
+    min-height: 42px;
+  }
+}
+
+.banner-image {
+  position: relative;
+}
+
+.banner-image img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scale(1.4);
+  z-index: -1;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-image img {
+    position: unset;
+    z-index: 1;
+    transform: initial;
+  }
+}

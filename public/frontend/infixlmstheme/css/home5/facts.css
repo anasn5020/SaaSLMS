@@ -1,0 +1,184 @@
+/*==== FUN FACT AREA CSS ====*/
+.language_school .fun_fact_inner {
+  background-color: var(--frontend-primary, #FF4D37);
+  padding: 60px 0px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .language_school .fun_fact_inner {
+    padding: 50px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .fun_fact_inner {
+    padding: 40px 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_school .fun_fact_inner {
+    padding: 30px 0px;
+  }
+}
+
+.language_school .fun_fact .row {
+  --lms-funfact: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+  .language_school .fun_fact .row {
+    margin-bottom: calc(var(--lms-funfact) * -1);
+  }
+}
+
+.language_school .fun_fact_card {
+  padding-right: 60px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .language_school .fun_fact_card {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .language_school .fun_fact_card {
+    padding-left: 60px;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .language_school .fun_fact_card {
+    margin-bottom: calc(var(--lms-funfact) * 1);
+    padding-right: 0px;
+    padding-left: 40px;
+  }
+}
+
+html[dir="rtl"] .language_school .fun_fact_card {
+  padding-left: 60px;
+  padding-right: 0;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  html[dir="rtl"] .language_school .fun_fact_card {
+    padding-left: 20px;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html[dir="rtl"] .language_school .fun_fact_card {
+    padding-right: 60px;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  html[dir="rtl"] .language_school .fun_fact_card {
+    padding-left: 0px;
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .language_school .fun_fact_card {
+    text-align: center;
+  }
+}
+
+.language_school .fun_fact_card_icon {
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .language_school .fun_fact_card_icon {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .language_school .fun_fact_card_icon {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .fun_fact_card_icon {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_school .fun_fact_card_icon {
+    margin-bottom: 20px;
+  }
+}
+
+.language_school .fun_fact_card_icon img,
+.language_school .fun_fact_card_icon svg {
+  height: 100%;
+  object-fit: contain;
+}
+
+.language_school .fun_fact_card_icon img path,
+.language_school .fun_fact_card_icon svg path {
+  fill: var(--white, #ffffff);
+}
+
+.language_school .fun_fact_card h5 {
+  font-size: 24px;
+  line-height: 1.41667;
+  margin-bottom: 20px;
+  color: var(--white, #ffffff);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .language_school .fun_fact_card h5 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .fun_fact_card h5 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_school .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .language_school .fun_fact_card h5 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .language_school .fun_fact_card h5 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .fun_fact_card h5 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_school .fun_fact_card h5 {
+    margin-bottom: 5px;
+  }
+}
+
+.language_school .fun_fact_card p {
+  color: var(--white, #ffffff);
+}

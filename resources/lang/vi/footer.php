@@ -1,0 +1,21 @@
+<?php
+return [
+"Footer" => "&amp; Footer",
+"Footer Settings" => "Thiết lập chân trang",
+"Dashboard" => "Bảng điều khiển",
+"Frontend CMS" => "CMS có khuynh hướng",
+"Copyright Text" => "Bản quyền",
+"About Text" => "Văn bản",
+"Section name" => "Tên phần",
+"About Description" => "Mô tả",
+"Add New Page" => "Thêm trang mới",
+"Cancel" => "Hủy",
+"Widget" => "Tiện ích",
+"Page Name" => "Tên trang",
+"Edit Link" => "Sửa liên kết",
+"Widget Title" => "Tiêu đê tiện",
+"Add Link" => "Thêm liên kết",
+"Select Page" => "Chọn trang",
+"Are you sure" => "Anh có chắc không?",
+"Custom Link" => "Liên kết tự",
+];

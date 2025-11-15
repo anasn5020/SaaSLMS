@@ -1,0 +1,245 @@
+.cyber_security .banner_area_content {
+  padding-top: 130px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1581px) {
+  .cyber_security .banner_area_content {
+    padding-right: 15%;
+  }
+  html[dir="rtl"] .cyber_security .banner_area_content {
+    padding-right: 0;
+    padding-left: 15%;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .cyber_security .banner_area_content {
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cyber_security .banner_area_content {
+    padding-top: 90px;
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cyber_security .banner_area_content {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .banner_area_content {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .banner_area_content {
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cyber_security .banner_area_content {
+    padding-top: 30px;
+  }
+}
+
+.cyber_security .banner_area_content span {
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cyber_security .banner_area_content span {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cyber_security .banner_area_content span {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cyber_security .banner_area_content span {
+    margin-bottom: 15px;
+  }
+}
+
+.cyber_security .banner_area_content h1 {
+  font-size: 60px;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cyber_security .banner_area_content h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cyber_security .banner_area_content h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .banner_area_content h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .banner_area_content h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cyber_security .banner_area_content h1 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cyber_security .banner_area_content h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cyber_security .banner_area_content h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .banner_area_content h1 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .banner_area_content h1 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cyber_security .banner_area_content h1 br {
+    display: none;
+  }
+}
+
+.cyber_security .banner_area_content p {
+  font-size: 18px;
+  line-height: 1.66667;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cyber_security .banner_area_content p {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .banner_area_content p {
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .banner_area_content p {
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 30px;
+  }
+}
+
+.cyber_security .banner_area_content p br {
+  display: none;
+}
+
+@media only screen and (min-width: 1581px) {
+  .cyber_security .banner_area_content p br {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .cyber_security .banner_area_content p br {
+    display: block;
+  }
+}
+
+.cyber_security .banner_area_content a {
+  width: max-content;
+}
+
+.cyber_security .banner_area_img {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  height: 730px;
+}
+
+html[dir="rtl"] .cyber_security .banner_area_img {
+  right: auto;
+  left: 15px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .cyber_security .banner_area_img {
+    height: 700pxpx;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cyber_security .banner_area_img {
+    height: 640px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cyber_security .banner_area_img {
+    height: 555px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .banner_area_img {
+    right: 0;
+    height: 430px;
+  }
+  html[dir="rtl"] .cyber_security .banner_area_img {
+    right: auto;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .banner_area_img {
+    display: none;
+  }
+}
+
+.cyber_security .banner_area_img img {
+  height: 100%;
+}

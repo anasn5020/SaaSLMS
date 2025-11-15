@@ -1,0 +1,22 @@
+<?php
+return [
+"organization" => "organizzazione",
+"Organization" => "Organizzazione",
+"financial_report" => "Relazione finanziaria",
+"sales_report" => "Report di vendita",
+"income" => "Reddito",
+"topic" => "Argomento",
+"account_balance" => "Conto Saldo",
+"ready_to_payout" => "Pronto To Payout",
+"total_income" => "Reddito Totale",
+"payout_history" => "Cronologia payout",
+"request_payout" => "Richiesta di Payout",
+"payout_confirmation" => "Conferma Payout",
+"total_payout" => "Totale Payout",
+"account" => "account",
+"completed" => "Completato",
+"confirmation" => "Conferma",
+"admin_profit" => "Admin Profit",
+"account_type" => "Tipo di account",
+"student" => "Studente",
+];

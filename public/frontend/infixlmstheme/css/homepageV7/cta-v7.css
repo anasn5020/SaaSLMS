@@ -1,0 +1,314 @@
+.cta-section-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cta-section {
+    border-radius: 2px;
+    padding: 0px 42px;
+    position: relative;
+    padding-right: var(--padding);
+    --img-width: 270px;
+    --padding: 230px;
+    --img-position: 10px;
+    /* margin: 100px 0; */
+    height: 100%;
+}
+
+html[dir=rtl] .cta-section {
+    padding-left: var(--padding);
+    padding-right: 42px;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+    .cta-section {
+        --padding: 210px;
+        --img-width: 260px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    .cta-section {
+        --padding: 180px;
+        --img-width: 190px;
+        --img-position: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .cta-section {
+        padding: 24px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cta-section {
+        padding: 20px 25px !important;
+    }
+}
+
+.cta-section.bg1 {
+    background: linear-gradient(77.16deg, #6812D7 13.44%, #FF3767 87.24%);
+    color: #fff;
+}
+
+.cta-section.bg2 {
+    color: #fff;
+    border-radius: 2px;
+    padding-right: var(--padding);
+    background: linear-gradient(77.16deg, #0788FF 13.44%, #37FFF3 87.24%);
+}
+
+html[dir=rtl] .cta-section.bg2 {
+    padding-left: var(--padding);
+    padding-right: auto;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    .cta-section.bg2 {
+        padding-left: 2rem !important;
+    }
+
+    html[dir=rtl] .cta-section.bg2 {
+        padding-left: inherit;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cta-section.bg2 {
+        padding-right: inherit;
+        margin-top: 30px;
+    }
+
+    html[dir=rtl] .cta-section.bg2 {
+        padding-left: inherit;
+    }
+}
+
+.cta-section.bg2 .category-cta-img {
+    left: auto;
+    right: var(--img-position);
+}
+
+html[dir=rtl] .cta-section.bg2 .category-cta-img {
+    left: var(--img-position);
+    right: auto;
+}
+
+.cta-section-img {
+    max-width: var(--img-width);
+    flex: 0 0 100%;
+    height: 388px;
+    position: absolute;
+    bottom: 0;
+    right: var(--img-position);
+}
+html[dir=rtl] .cta-section-img {
+    left: var(--img-position);
+    right: auto;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+    .cta-section-img {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    .cta-section-img {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .cta-section-img {
+        display: none;
+    }
+}
+
+.cta-section-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cta-section-content {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 50px 0px;
+}
+
+.cta-section-content .meta {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    .cta-section-content .meta {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .cta-section-content .meta {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    .cta-section-content {
+        padding: 30px 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .cta-section-content {
+        padding: 0;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cta-section-content {
+        padding: 20px 0px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .cta-section-content {
+        padding: 0;
+        max-width: 100%;
+    }
+}
+
+.cta-section-content .lh2 {
+    line-height: 2;
+}
+
+.cta-section-content h3 {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: var(--fontFamily1, "Plus Jakarta Sans", sans-serif);
+    line-height: 1.3;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+    .cta-section-content h3 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+    .cta-section-content h3 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    .cta-section-content h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .cta-section-content h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+    .cta-section-content h3 {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) and (min-width: 992px) and (max-width: 1279px) {
+    .cta-section-content h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) and (max-width: 991px) {
+    .cta-section-content h3 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    .cta-section-content h3 {
+        padding-right: 0;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) and (min-width: 992px) and (max-width: 1279px) {
+    .cta-section-content h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) and (min-width: 768px) and (max-width: 991px) {
+    .cta-section-content h3 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    html[dir=rtl] .cta-section-content h3 {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .cta-section-content h3 {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cta-section-content h3 {
+        padding-right: 0;
+    }
+
+    html[dir=rtl] .cta-section-content h3 {
+        padding-left: 0;
+    }
+}
+
+.cta-section-content p {
+    margin-bottom: 28px;
+    color: #ffffff;
+}
+
+.cta-section-content .theme-btn {
+    --btn-padding-y: 11px;
+    --btn-padding-x: 18px;
+    background: #fff;
+    color: #000;
+    padding: var(--btn-padding-y) var(--btn-padding-x);
+    font-size: 14px;
+    line-height: 1.4;
+    min-width: 135px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    .cta-section-content .theme-btn {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .cta-section-content .theme-btn {
+        font-size: 12px;
+    }
+}

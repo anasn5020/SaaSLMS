@@ -1,0 +1,73 @@
+/* .notification_menu */
+.notification_menu {
+    position: absolute;
+    top: 100%;
+    right: -120px;
+    background: #fff;
+    border: 1px solid #ECEEF4;
+    width: 300px;
+    z-index: 15;
+    transform: translateY(20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.notification_menu ul {
+    max-height: 350px;
+    overflow: hidden;
+    overflow-y: auto;
+    border-bottom: 1px solid #f1f1f1;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.notification_menu ul li {
+    margin: 0 !important;
+}
+
+.notification_menu ul li:not(:last-child) {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.notification_menu ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #202E3B;
+
+}
+
+/*.notification_wrapper ul li a:hover {*/
+/*    position: relative;*/
+/*    z-index: 2;*/
+/*    display: inline-block;*/
+/*    color: var(--system_primery_color);*/
+/*}*/
+
+.notification_menu .notification_footer {
+    padding: 20px 25px;
+}
+
+.notification_wrapper li:hover .notification_menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(10px);
+
+}
+
+.unread_notification {
+    font-weight: bold;
+}
+
+.notifi_par {
+    font-weight: bold;
+}
+
+.notify_normal {
+    color: var(--system_secendory_color);
+}
+
+.header_iner .notification_wrapper ul li a .notify_icon img {
+    max-width: 30px;
+    width: 30px;
+}

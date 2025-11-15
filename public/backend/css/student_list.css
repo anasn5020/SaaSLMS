@@ -1,0 +1,7 @@
+.primary_input .input-group .input-group-prepend .input-group-text {
+    background: linear-gradient(90deg, var(--backend-primary-color) 0%, var(--backend-primary-color) 51%, var(--backend-primary-color) 100%) !important;
+}
+
+.org_table  td:first-child {
+    padding-left: 15px !important;
+}

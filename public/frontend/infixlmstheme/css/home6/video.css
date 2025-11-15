@@ -1,0 +1,108 @@
+.cyber_security .video {
+  background-image: url("../img/cyber_security/shapes/video.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cyber_security .video_tabs {
+  margin-top: 60px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cyber_security .video_tabs {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cyber_security .video_tabs {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .video_tabs {
+    margin-top: 35px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .video_tabs {
+    margin-top: 25px;
+  }
+}
+
+.cyber_security .video_content {
+  margin-top: 20px;
+}
+
+.cyber_security .video_content_item {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  width: 100%;
+  padding-bottom: 56%;
+}
+
+.cyber_security .video_content_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cyber_security .video_content_item #icon {
+  --lms-video-icon: 100px;
+  width: var(--lms-video-icon);
+  height: var(--lms-video-icon);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--frontend-white, #ffffff);
+  color: var(--frontend-primary, #08D665);
+  font-size: 24px;
+  line-height: 1.41667;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cyber_security .video_content_item #icon {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .video_content_item #icon {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .video_content_item #icon {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cyber_security .video_content_item #icon {
+    --lms-video-icon: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cyber_security .video_content_item #icon {
+    --lms-video-icon: 80px;
+  }
+}
+
+.cyber_security .video_content_item #icon:hover {
+  background-color: var(--frontend-primary, #08D665);
+  color: var(--frontend-white, #ffffff);
+}

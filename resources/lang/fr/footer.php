@@ -1,0 +1,21 @@
+<?php
+return [
+"Footer" => "Bas de page",
+"Footer Settings" => "Paramètres de bas de page",
+"Dashboard" => "Tableau de bord",
+"Frontend CMS" => "CMS Frontend",
+"Copyright Text" => "Texte du copyright",
+"About Text" => "A propos du texte",
+"Section name" => "Nom de la section",
+"About Description" => "Description de la description",
+"Add New Page" => "Ajouter une nouvelle page",
+"Cancel" => "Annuler",
+"Widget" => "Widget",
+"Page Name" => "Nom de la page",
+"Edit Link" => "Editer le lien",
+"Widget Title" => "Titre du widget",
+"Add Link" => "Ajouter un lien",
+"Select Page" => "Sélectionner une page",
+"Are you sure" => "Etes-vous sûr",
+"Custom Link" => "Lien personnalisé",
+];

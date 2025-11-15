@@ -1,0 +1,23 @@
+{
+    "SidebarManager": {
+        "item_id": "30626608",
+        "migration": [
+            "2022_09_12_124617_AddPermissionReletedMenuManage.php",
+            "2022_09_12_161717_create_permission_sections_table.php",
+            "2022_09_14_113428_AddAndRemoveMenuItem.php",
+            "2022_11_24_092111_AddAndUpdateMenuItem2.php",
+            "2022_12_08_111902_AddDefaultLogoInSidebar.php"
+        ],
+        "names": [
+        ],
+        "versions": [
+            "1.0.1"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "This is Sidebar Manager module for Infix LMS. Thanks for using."
+        ]
+    }
+}

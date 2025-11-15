@@ -1,0 +1,20 @@
+{
+    "Pesapal": {
+        "item_id": "30626608",
+        "migration": [
+            "2021_05_09_102801_addPesapalPaymentMethod.php"
+        ],
+        "names": [
+            "Pesapal"
+        ],
+        "versions": [
+            "1.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "Simple and convenient eWallet. Instant payments and transfers. Worldwide. Send, exchange or accept funds on your personal account or website. Thanks for using."
+        ]
+    }
+}

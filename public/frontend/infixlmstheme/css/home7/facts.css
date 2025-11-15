@@ -1,0 +1,151 @@
+.digital_marketing .fun_fact {
+  border: 1px solid var(--frontend-border-light, #F8F7FC);
+  box-shadow: 5px 5px 10px rgba(var(--frontend-black, #000000), 0.02);
+  padding: 50px 0px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .fun_fact {
+    padding: 30px 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .fun_fact {
+    padding: 30px 0px;
+  }
+}
+
+.digital_marketing .fun_fact .row {
+  --lms-funfact: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+  .digital_marketing .fun_fact .row {
+    margin-bottom: calc(var(--lms-funfact) * -1);
+  }
+}
+
+.digital_marketing .fun_fact_card {
+  padding: 0px 80px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .fun_fact_card {
+    padding: 0px 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .fun_fact_card {
+    padding: 0px 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .digital_marketing .fun_fact_card {
+    margin-bottom: calc(var(--lms-funfact) * 1);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .fun_fact_card {
+    padding: 0px 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .fun_fact_card {
+    text-align: center;
+    padding: 0px 0px;
+  }
+}
+
+.digital_marketing .fun_fact_card_icon {
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .fun_fact_card_icon {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .fun_fact_card_icon {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .fun_fact_card_icon {
+    margin-bottom: 20px;
+  }
+}
+
+.digital_marketing .fun_fact_card_icon img,
+.digital_marketing .fun_fact_card_icon svg {
+  height: 100%;
+  object-fit: contain;
+}
+
+.digital_marketing .fun_fact_card_icon img path,
+.digital_marketing .fun_fact_card_icon svg path {
+  fill: var(--frontend-primary, #3C2CEB);
+}
+
+.digital_marketing .fun_fact_card h5 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .digital_marketing .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .digital_marketing .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .fun_fact_card h5 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .fun_fact_card h5 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .fun_fact_card h5 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .fun_fact_card h5 {
+    margin-bottom: 5px;
+  }
+}

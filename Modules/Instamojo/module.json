@@ -1,0 +1,13 @@
+{
+    "name": "Instamojo",
+    "alias": "instamojo",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Instamojo\\Providers\\InstamojoServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

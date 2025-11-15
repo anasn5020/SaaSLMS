@@ -1,0 +1,23 @@
+<?php
+return [
+"E-Library" => "ই-লাইব্রেরী",
+"Ebook" => "Ebook",
+"Author Name" => "লেখক নাম",
+"Publisher Name" => "প্রকাশক নাম",
+"Ebook List" => "বইয়ের তালিকা",
+"Add New EBook" => "নতুন ইবুক যোগ করো",
+"Update EBook" => "ইবুক আপডেট করো",
+"Select Access Type" => "অ্যাক্সেস টাইপ নির্বাচন করুন",
+"All Student" => "সব স্টুডেন্ট",
+"access_type" => "আবশ্যক",
+"Access" => "অ্যাক্সেস",
+"Access Type" => "প্রবেশাধিকার টাইপ",
+"Ebook Created Successfully" => "Ebook Created Successfully",
+"Ebook Delete Successfully" => "Ebook @ info: status",
+"Ebook Update Failed" => "ইবুক আপডেট ব্যর্থ",
+"Ebook Update Successfully" => "ইবুক আপডেট সাফল্য",
+"Access Type Of Student" => "অ্যাক্সেস টাইপ অফ স্টুডেন্ট",
+"You are not eligible" => "আপনি যোগ্য না",
+"Book View" => "বুক ভিউ",
+"Add Ebook" => "ইবুক যোগ করো",
+];

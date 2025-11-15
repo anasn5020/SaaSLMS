@@ -1,0 +1,22 @@
+<?php
+return [
+    'organization' => 'organization',
+    'Organization' => 'Organization',
+    'financial_report' => 'Financial Report',
+    'sales_report' => 'Sales Report',
+    'income' => 'Income',
+    'topic' => 'Topic',
+    'account_balance' => 'Account Balance',
+    'ready_to_payout' => 'Ready To Payout',
+    'total_income' => 'Total Income',
+    'payout_history' => 'Payout History',
+    'request_payout' => 'Request Payout',
+    'payout_confirmation' => 'Payout Confirmation',
+    'total_payout' => 'Total Payout',
+    'account' => 'Account',
+    'completed' => 'Completed',
+    'confirmation' => 'Confirmation',
+    'admin_profit' => 'Admin Profit',
+    'account_type' => 'Account Type',
+    'student' => 'Student',
+];

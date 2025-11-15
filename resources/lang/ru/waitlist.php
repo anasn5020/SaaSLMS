@@ -1,0 +1,21 @@
+<?php
+return [
+"Members" => "Члены",
+"Registered Members" => "Зарегистрированные члены",
+"Last Submission" => "Последнее представление",
+"Enabled" => "Включено",
+"Disabled" => "Выключено",
+"Enable" => "Включить",
+"Disable" => "Выключить",
+"View" => "Вид",
+"Name" => "Имя",
+"Email" => "Электронная почта",
+"Phone" => "Телефон",
+"Registration Status" => "Состояние регистрации",
+"Submission Date" => "Дата представления",
+"Export" => "Экспорт",
+"Export List" => "Экспортировать список",
+"Send Notification" => "Отправить уведомление",
+"Choose which columns you see" => "Выберите столбцы, которые вы увидите",
+"Cancel" => "Отмена",
+];

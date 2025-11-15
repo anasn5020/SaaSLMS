@@ -1,0 +1,191 @@
+/*==== HOW TO WORK CSS ====*/
+.business_instructor .how_work {
+  background-color: var(--frontend-light-gray-2, #F4F6FD);
+  padding-top: var(--section-separate);
+  padding-bottom: 330px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .business_instructor .how_work {
+    padding-bottom: 270px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .how_work {
+    padding-bottom: 215px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .how_work {
+    padding-bottom: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .how_work {
+    padding-bottom: 160px;
+  }
+}
+
+.business_instructor .how_work_card {
+  margin-top: 60px;
+  padding: 0px 50px;
+  position: relative;
+  z-index: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .how_work_card {
+    margin-top: 50px;
+    padding: 0px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .how_work_card {
+    margin-top: 40px;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .how_work_card {
+    padding: 0px 30px;
+    margin-top: 30px;
+  }
+}
+
+.business_instructor .how_work_card::before {
+  content: "";
+  width: 155px;
+  height: 45px;
+  position: absolute;
+  top: 20px;
+  right: -100px;
+  z-index: -1;
+  background-image: var(--shapes);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .how_work_card::before {
+    width: 130px;
+    height: 35px;
+    top: 10px;
+    right: -70px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .business_instructor .how_work_card::before {
+    display: none;
+  }
+}
+
+html[dir="rtl"] .business_instructor .how_work_card::before {
+  left: -100px;
+  right: auto;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html[dir="rtl"] .business_instructor .how_work_card::before {
+    left: -70px;
+    right: auto;
+  }
+}
+
+.business_instructor .how_work_card_icon {
+  --lms-how-work-icon: 70px;
+  width: var(--lms-how-work-icon);
+  height: var(--lms-how-work-icon);
+  margin: auto;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .how_work_card_icon {
+    --lms-how-work-icon: 60px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .how_work_card_icon {
+    --lms-how-work-icon: 60px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .how_work_card_icon {
+    --lms-how-work-icon: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+.business_instructor .how_work_card_icon img,
+.business_instructor .how_work_card_icon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.business_instructor .how_work_card_icon img path,
+.business_instructor .how_work_card_icon svg path {
+  fill: var(--frontend-white, #ffffff);
+}
+
+.business_instructor .how_work_card h5 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .business_instructor .how_work_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .how_work_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .business_instructor .how_work_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .how_work_card h5 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .how_work_card h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .how_work_card h5 {
+    margin-bottom: 10px;
+  }
+}
+
+.business_instructor .how_work_card p {
+  font-family: 'Eudoxus Sans', sans-serif;
+  line-height: 1.75;
+}

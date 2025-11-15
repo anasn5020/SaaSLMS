@@ -1,0 +1,23 @@
+<?php
+return [
+"E-Library" => "Электронная библиотека",
+"Ebook" => "Ebook",
+"Author Name" => "Имя автора",
+"Publisher Name" => "Имя издателя",
+"Ebook List" => "Список электронных книг",
+"Add New EBook" => "Добавить новую книгу",
+"Update EBook" => "Обновить EBook",
+"Select Access Type" => "Выберите тип доступа",
+"All Student" => "Все студенческие",
+"access_type" => "Обязательный",
+"Access" => "Доступ",
+"Access Type" => "Тип доступа",
+"Ebook Created Successfully" => "Ebook успешно создан",
+"Ebook Delete Successfully" => "Ebook Успешно Удалить",
+"Ebook Update Failed" => "Обновление электронной книги завершилось неудачно",
+"Ebook Update Successfully" => "Обновление электронной книги выполнено успешно",
+"Access Type Of Student" => "Тип Доступа Для Студента",
+"You are not eligible" => "Вы не удовлетворяете требованиям",
+"Book View" => "Представление книги",
+"Add Ebook" => "Добавить книгу",
+];

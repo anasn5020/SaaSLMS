@@ -1,0 +1,106 @@
+@media only screen and (max-width: 991px) {
+  .digital_marketing .app_section {
+    text-align: center;
+  }
+}
+
+.digital_marketing .app_section_content {
+  padding-top: var(--section-separate);
+  background-color: var(--frontend-aqua-200, #EDF8FF);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .app_section_content {
+    padding-bottom: var(--section-separate);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .digital_marketing .app_section_content {
+    background-color: transparent !important;
+    padding-top: 0px;
+  }
+}
+
+.digital_marketing .app_section_content .section_title span {
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+  .digital_marketing .app_section_content .section_title span {
+    margin-bottom: 10px;
+  }
+}
+
+.digital_marketing .app_section_content .section_title h2 {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+  .digital_marketing .app_section_content .section_title h2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .app_section_text {
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .digital_marketing .app_section_text {
+    margin-top: 30px;
+  }
+}
+
+.digital_marketing .app_section_text p {
+  line-height: 1.875;
+}
+
+.digital_marketing .app_section_text p:not(:first-child) {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .app_section_text p:not(:first-child) {
+    margin-top: 15px;
+  }
+}
+
+.digital_marketing .app_section_text ul {
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .app_section_text ul {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .app_section_text ul {
+    margin-top: 20px;
+  }
+}
+
+.digital_marketing .app_section_text ul li {
+  display: inline-block;
+}
+
+.digital_marketing .app_section_text ul li:not(:last-child) {
+  margin-right: 8px;
+}
+
+html[dir="rtl"] .digital_marketing .app_section_text ul li:not(:last-child) {
+  margin-left: 8px;
+  margin-right: 0px;
+}
+
+.digital_marketing .app_section_text ul li a {
+  display: block;
+}
+
+.digital_marketing .app_section_text ul li a:hover {
+  opacity: .8;
+}

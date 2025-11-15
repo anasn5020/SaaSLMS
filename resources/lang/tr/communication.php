@@ -1,0 +1,22 @@
+<?php
+return [
+"Communication" => "İletişim",
+"Questions & Answer" => "Sorular ve Yanıtı",
+"Private Messages" => "Özel İletiler",
+"Message List" => "İleti Listesi",
+"Write your message" => "İletinizi yazın",
+"Search content here" => "İçerikte arama yapın",
+"Short Code" => "Kısa Kod",
+"Field Name" => "Alan Adı",
+"Subscriptions" => "Abonelikler",
+"Send Message" => "İleti Gönder",
+"Send Email" => "Eposta Gönder",
+"Compose Message" => "İleti Oluştur",
+"Your referral link" => "Başvuru bağlantınızın bağlantısı",
+"Copy Link" => "Bağlantıyı Kopyala",
+"Share the referral link with your friends." => "Başvuru bağlantısını arkadaşlarınızla paylaşın.",
+"Your referral list" => "Başvuru listeniz",
+"Let's say Hi" => "Merhaba diyelim.",
+"News Category" => "Haber Kategorisi",
+"News List" => "Haber Listesi",
+];

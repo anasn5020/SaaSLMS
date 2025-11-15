@@ -1,0 +1,21 @@
+<?php
+return [
+"Footer" => "Сноска",
+"Footer Settings" => "Параметры сноски",
+"Dashboard" => "Сводная панель",
+"Frontend CMS" => "Frontend,",
+"Copyright Text" => "Текст авторских прав",
+"About Text" => "О тексте",
+"Section name" => "Имя раздела",
+"About Description" => "Описание описания",
+"Add New Page" => "Добавить новую страницу",
+"Cancel" => "Отмена",
+"Widget" => "Виджет",
+"Page Name" => "Имя страницы",
+"Edit Link" => "Изменить ссылку",
+"Widget Title" => "Заголовок виджета",
+"Add Link" => "Добавить ссылку",
+"Select Page" => "Выбрать страницу",
+"Are you sure" => "Вы уверены?",
+"Custom Link" => "Пользовательская ссылка",
+];

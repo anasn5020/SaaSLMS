@@ -1,0 +1,20 @@
+<?php
+return [
+    "Attribute Name" => "Hợp pháp hóa thành phố.",
+    "Valus" => "Dạng thức ăn của các thanh niên.",
+    "Order List" => "Loài này được (trợ giúp).",
+    "carrier" => "Danh pháp khoa học: Name",
+    "Order Id" => "Id của người dùng",
+    "Tracking Id" => "Phương pháp liên quan đến vật liệu chống lại các loài trong chi này.",
+    "Shipping Method" => "Loài này được gọi là vận động viên kim loại.",
+    "Carrier" => "Danh pháp khoa học: Name",
+    "Packaging" => "Loài này thuộc chi này.",
+    "pin_code" => "Thêm vào đó.",
+    "post_code" => "Chế độ ăn uống của nữ thanh niên.",
+    "country_region" => "Một loại nữ sinh trong cuộc sống.",
+    "state" => "Sân vận động hạng mục",
+    "city" => "Tên thành phố (tùy chọn,",
+    "Shipping Pickup Locations" => "Địa điểm chuyển hàng",
+    "is_active" => "Hiện tại (tiếng Tây Ban Nha)",
+    "Pickup Location" => "Vận động viên danh dự.",
+];

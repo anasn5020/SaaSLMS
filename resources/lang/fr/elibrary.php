@@ -1,0 +1,23 @@
+<?php
+return [
+"E-Library" => "Bibliothèque électronique",
+"Ebook" => "Livre",
+"Author Name" => "Nom de l'auteur",
+"Publisher Name" => "Nom de l'éditeur",
+"Ebook List" => "Liste des livres",
+"Add New EBook" => "Ajouter un nouveau livre",
+"Update EBook" => "Mettre à jour le livre",
+"Select Access Type" => "Sélectionner un type d'accès",
+"All Student" => "Tous les étudiants",
+"access_type" => "Obligatoire",
+"Access" => "Accès",
+"Access Type" => "Type d'accès",
+"Ebook Created Successfully" => "Ebook créé avec succès",
+"Ebook Delete Successfully" => "Suppression de l'Ebook réussie",
+"Ebook Update Failed" => "Echec de la mise à jour du livre",
+"Ebook Update Successfully" => "Mise à jour de l'Ebook réussie",
+"Access Type Of Student" => "Type d'accès de l'étudiant",
+"You are not eligible" => "Vous n'êtes pas éligible",
+"Book View" => "Vue de livre",
+"Add Ebook" => "Ajouter un livre",
+];

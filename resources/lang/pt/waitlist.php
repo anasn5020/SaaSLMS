@@ -1,0 +1,21 @@
+<?php
+return [
+"Members" => "Membros",
+"Registered Members" => "Membros registrados",
+"Last Submission" => "Última Submissão",
+"Enabled" => "Ativado",
+"Disabled" => "Desativado",
+"Enable" => "Ativar",
+"Disable" => "Desativar",
+"View" => "Visualização",
+"Name" => "Nome",
+"Email" => "E-mail",
+"Phone" => "Telefone",
+"Registration Status" => "Status de Registro",
+"Submission Date" => "Data do Sub",
+"Export" => "Exportação",
+"Export List" => "Listar Lista",
+"Send Notification" => "Notificação de envio",
+"Choose which columns you see" => "Escolha quais colunas você vê",
+"Cancel" => "Cancelar",
+];

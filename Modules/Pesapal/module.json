@@ -1,0 +1,13 @@
+{
+    "name": "Pesapal",
+    "alias": "pesapal",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Pesapal\\Providers\\PesapalServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

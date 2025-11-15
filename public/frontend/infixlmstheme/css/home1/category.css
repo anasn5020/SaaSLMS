@@ -1,0 +1,194 @@
+/*==== CATEGORYS AREA CSS ====*/
+.business_instructor .category_card {
+  border: 1px solid var(--frontend-border, #E3E6EF);
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .business_instructor .category_card {
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .business_instructor .category_card {
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .category_card {
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .category_card {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .category_card {
+    padding: 20px;
+  }
+}
+
+.business_instructor .category_card_inner {
+  height: 100%;
+}
+
+.business_instructor .category_card_inner_icon {
+  --lms-category-icon: 60px;
+  width: var(--lms-category-icon);
+  height: var(--lms-category-icon);
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+  display: block;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .business_instructor .category_card_inner_icon {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .category_card_inner_icon {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .category_card_inner_icon {
+    --lms-category-icon: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .category_card_inner_icon {
+    --lms-category-icon: 45px;
+    margin-bottom: 15px;
+  }
+}
+
+.business_instructor .category_card_inner_icon img,
+.business_instructor .category_card_inner_icon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.business_instructor .category_card_inner h4 {
+  font-size: 20px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .business_instructor .category_card_inner h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .category_card_inner h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .business_instructor .category_card_inner h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .category_card_inner h4 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .business_instructor .category_card_inner h4 {
+    margin-bottom: 10px;
+  }
+}
+
+.business_instructor .category_card_inner p {
+  font-family: 'Eudoxus Sans', sans-serif;
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .category_card_inner p {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .category_card_inner p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    -webkit-line-clamp: 4;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .category_card_inner p {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+}
+
+.business_instructor .category_card_inner a {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.85714;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--frontend-primary-2, #231F40);
+}
+
+.business_instructor .category_card_inner a:hover {
+  color: var(--frontend-primary, #525FE1);
+}
+
+.business_instructor .category_card_inner a:hover span {
+  background-color: var(--frontend-primary-2, #231F40);
+}
+
+.business_instructor .category_card_inner a span {
+  display: inline-block;
+  border-radius: 100%;
+  margin-left: 15px;
+  --lms-category-remove: 24px;
+  width: var(--lms-category-remove);
+  height: var(--lms-category-remove);
+  line-height: var(--lms-category-remove);
+  text-align: center;
+  background-color: var(--frontend-primary, #525FE1);
+  color: var(--frontend-white, #ffffff);
+  transition: all .4s ease-in-out;
+}
+
+html[dir="rtl"] .business_instructor .category_card_inner a span {
+  margin-left: 0px;
+  margin-right: 15px;
+}

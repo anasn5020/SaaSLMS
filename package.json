@@ -1,0 +1,51 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^5.0.4",
+        "axios": "^0.19",
+        "bootstrap": "^5.3.3",
+        "cross-env": "^7.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^5.0.1",
+        "lodash": "^4.17.19",
+        "mobx-vue": "2.0.11",
+        "polotno": "^0.33.2",
+        "popper.js": "^1.12",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.15.2",
+        "sass-loader": "^8.0.0",
+        "vue": "^2.6.11",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "@vimeo/player": "^2.14.1",
+        "agora-rtm-sdk": "^1.4.3-203",
+        "bootstrap-datepicker": "^1.9.0",
+        "feather-icons": "^4.28.0",
+        "html2pdf.js": "^0.10.1",
+        "jquery-nice-select": "^1.1.0",
+        "jquery-ui": "^1.13.0",
+        "laravel-echo": "^1.11.3",
+        "moment": "^2.29.1",
+        "pdfobject": "^2.2.7",
+        "pusher-js": "^7.0.3",
+        "require": "^2.4.20",
+        "toastr": "^2.1.4",
+        "v-emoji-picker": "^2.3.3",
+        "vue": "^2.6.14",
+        "vue-chat-scroll": "^1.4.0",
+        "vue-select": "^3.16.0"
+    }
+}

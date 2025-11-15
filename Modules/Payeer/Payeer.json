@@ -1,0 +1,22 @@
+{
+    "Payeer": {
+        "item_id": "30626608",
+        "migration": [
+            "2021_04_18_094929_AddPayeerPaymentMethod.php",
+            "2021_04_18_135033_create_payeer_orders_table.php"
+        ],
+        "names": [
+            "Payeer",
+            "payeer_orders"
+        ],
+        "versions": [
+            "1.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "Simple and convenient eWallet. Instant payments and transfers. Worldwide. Send, exchange or accept funds on your personal account or website. Thanks for using."
+        ]
+    }
+}

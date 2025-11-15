@@ -1,0 +1,22 @@
+{
+    "Midtrans": {
+        "item_id": "30626608",
+        "migration": [
+            "2021_04_17_105527_AddMidtransPaymentMethod.php",
+            "2021_04_17_152234_create_midtrans_orders_table.php"
+        ],
+        "names": [
+            "Midtrans",
+            "midtrans_orders"
+        ],
+        "versions": [
+            "1.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "Midtrans is one of the Indonesian payment gateway. Thanks for using."
+        ]
+    }
+}

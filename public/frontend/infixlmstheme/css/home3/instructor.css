@@ -1,0 +1,202 @@
+/*== homepage tutor finder ==*/
+.single_instructor .ins_cta_inner {
+  background-image: url(../img/shapes/tutor-finder.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: var(--ins-py);
+  padding-bottom: var(--ins-py);
+  background-color: var(--frontend-extara-light-white, #f9f9fc);
+  position: relative;
+  z-index: 1;
+  --ins-py: 58px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single_instructor .ins_cta_inner {
+    --ins-py: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_instructor .ins_cta_inner {
+    --ins-py: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_instructor .ins_cta_inner {
+    padding: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .single_instructor .ins_cta_inner {
+    padding: 25px 20px;
+  }
+}
+
+.single_instructor .ins_cta_inner.tutor_finder_bg {
+  background-image: none;
+}
+
+.single_instructor .ins_cta_inner.tutor_finder_bg::before {
+  content: "";
+  background-image: url(../img/instructor/instructor-finder.svg);
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 14%;
+  height: 100%;
+  width: 440px;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .single_instructor .ins_cta_inner.tutor_finder_bg::before {
+    right: 5%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single_instructor .ins_cta_inner.tutor_finder_bg::before {
+    right: 5%;
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_instructor .ins_cta_inner.tutor_finder_bg::before {
+    right: 5%;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_instructor .ins_cta_inner.tutor_finder_bg::before {
+    display: none;
+  }
+}
+
+html[dir="rtl"] .single_instructor .ins_cta_inner.tutor_finder_bg::before {
+  left: 14%;
+  right: auto;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html[dir="rtl"] .single_instructor .ins_cta_inner.tutor_finder_bg::before {
+    left: 5%;
+    right: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html[dir="rtl"] .single_instructor .ins_cta_inner.tutor_finder_bg::before {
+    left: 5%;
+    right: auto;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .single_instructor .ins_cta_inner_text {
+    text-align: center;
+  }
+}
+
+.single_instructor .ins_cta_inner_text span {
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--frontend-primary, #4254FF);
+  display: block;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .single_instructor .ins_cta_inner_text span {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single_instructor .ins_cta_inner_text span {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_instructor .ins_cta_inner_text span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_instructor .ins_cta_inner_text span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .single_instructor .ins_cta_inner_text span {
+    font-weight: 500;
+  }
+}
+
+.single_instructor .ins_cta_inner_text h3 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .single_instructor .ins_cta_inner_text h3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single_instructor .ins_cta_inner_text h3 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_instructor .ins_cta_inner_text h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_instructor .ins_cta_inner_text h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .single_instructor .ins_cta_inner_text h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single_instructor .ins_cta_inner_text h3 {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_instructor .ins_cta_inner_text h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_instructor .ins_cta_inner_text h3 {
+    margin-bottom: 15px;
+  }
+}

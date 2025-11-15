@@ -1,0 +1,206 @@
+/*==== TUTOR FINDER AREA CSS ====*/
+.cooking_lms .tutor_cta_inner {
+  background-color: var(--frontend-primary-light, #F4F3F0);
+  position: relative;
+  --lms-tutor-finder-home: 70px;
+  padding: var(--lms-tutor-finder-home) 0px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .tutor_cta_inner {
+    --lms-tutor-finder-home: 55px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .tutor_cta_inner {
+    --lms-tutor-finder-home: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .tutor_cta_inner {
+    padding: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cooking_lms .tutor_cta_inner {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+.cooking_lms .tutor_cta_inner::before {
+  content: "";
+  width: 312px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  z-index: 1;
+  background-image: var(--bg-shape);
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .cooking_lms .tutor_cta_inner::before {
+    left: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .tutor_cta_inner::before {
+    left: 30px;
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .tutor_cta_inner::before {
+    left: 15px;
+    width: 215px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cooking_lms .tutor_cta_inner::before {
+    display: none;
+  }
+}
+
+html[dir="rtl"] .cooking_lms .tutor_cta_inner::before {
+  right: 50px;
+  left: auto;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  html[dir="rtl"] .cooking_lms .tutor_cta_inner::before {
+    right: 30px;
+    left: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  html[dir="rtl"] .cooking_lms .tutor_cta_inner::before {
+    right: 30px;
+    left: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html[dir="rtl"] .cooking_lms .tutor_cta_inner::before {
+    right: 15px;
+    left: auto;
+  }
+}
+
+.cooking_lms .tutor_cta_inner span {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .tutor_cta_inner span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .tutor_cta_inner span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cooking_lms .tutor_cta_inner span {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cooking_lms .tutor_cta_inner span {
+    font-weight: 500;
+  }
+}
+
+.cooking_lms .tutor_cta_inner h3 {
+  font-size: 30px;
+  line-height: 1.33333;
+  line-height: 1.66667;
+  margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 16px;
+  }
+}
+
+.cooking_lms .tutor_cta_inner a {
+  padding: 20px 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .tutor_cta_inner a {
+    padding: 15px 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .tutor_cta_inner a {
+    padding: 10px 20px;
+  }
+}

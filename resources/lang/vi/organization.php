@@ -1,0 +1,22 @@
+<?php
+return [
+"organization" => "tổ chức",
+"Organization" => "Tổ chức",
+"financial_report" => "Tài chính",
+"sales_report" => "Báo cáo hàng",
+"income" => "Thu nhập",
+"topic" => "Chủ đề",
+"account_balance" => "Số dư ̃",
+"ready_to_payout" => "Sẵn Sàng Để Thanh Toán",
+"total_income" => "Tổng thu nhập",
+"payout_history" => "Lịch sử thanh toán",
+"request_payout" => "Yêu cầu thanh toán",
+"payout_confirmation" => "Xác nhận thanh toán",
+"total_payout" => "Tổng sô ́ thanh toán",
+"account" => "tài khoản",
+"completed" => "Sân vận động hạng đấu.",
+"confirmation" => "Xác nhận",
+"admin_profit" => "Lợi nhuận quản trị viên",
+"account_type" => "Kiểu tài khoản",
+"student" => "Sinh viên",
+];

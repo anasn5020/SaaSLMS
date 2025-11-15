@@ -1,0 +1,104 @@
+.university .video_area {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  margin-top: var(--section-separate);
+  padding-top: 140px;
+  padding-bottom: 360px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .video_area {
+    padding-top: 120px;
+    padding-bottom: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .video_area {
+    padding-top: 80px;
+    padding-bottom: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .video_area {
+    padding-top: 70px;
+    padding-bottom: 230px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .video_area {
+    padding-top: 50px;
+    padding-bottom: 210px;
+  }
+}
+
+.university .video_area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #122643;
+  opacity: .9;
+  z-index: -1;
+}
+
+.university .video_area ~ .price {
+  margin-top: -215px;
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .video_area ~ .price {
+    margin-top: -160px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .video_area ~ .price {
+    margin-top: -160px;
+  }
+}
+
+.university .video_area ~ .price .section_title h2 {
+  color: var(--frontend-white, #ffffff);
+}
+
+.university .video_area_play {
+  --lms-video: 80px;
+  display: block;
+  width: var(--lms-video);
+  height: var(--lms-video);
+  line-height: var(--lms-video);
+  border-radius: 100%;
+  background-color: var(--frontend-white, #ffffff);
+  text-align: center;
+  color: var(--frontend-primary, #EE8C1B);
+  font-size: 28px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .video_area_play {
+    --lms-video: 60px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .video_area_play {
+    --lms-video: 60px;
+    font-size: 18px;
+  }
+}
+
+.university .video_area_play:hover {
+  background-color: var(--frontend-primary, #EE8C1B);
+  color: var(--frontend-white, #ffffff) !important;
+}

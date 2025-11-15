@@ -1,0 +1,13 @@
+{
+    "name": "Mobilpay",
+    "alias": "mobilpay",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Mobilpay\\Providers\\MobilpayServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

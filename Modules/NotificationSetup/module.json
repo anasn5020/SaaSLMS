@@ -1,0 +1,13 @@
+{
+    "name": "NotificationSetup",
+    "alias": "notificationsetup",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\NotificationSetup\\Providers\\NotificationSetupServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

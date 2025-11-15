@@ -1,0 +1,134 @@
+.cyber_security .app_section_content {
+  --lms-app-sp: 60px;
+  padding: var(--lms-app-sp) 0px;
+  background-color: var(--frontend-primary, #08D665);
+  position: relative;
+  background-image: url("../../img/cyber_security/shapes/cta.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .app_section_content {
+    --lms-app-sp: 40px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .app_section_content {
+    --lms-app-sp: 30px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.cyber_security .app_section_content_text span {
+  margin-bottom: 14px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .app_section_content_text span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cyber_security .app_section_content_text span {
+    margin-bottom: 8px;
+  }
+}
+
+.cyber_security .app_section_content_text h3 {
+  font-size: 50px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cyber_security .app_section_content_text h3 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cyber_security .app_section_content_text h3 {
+    font-size: 38px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .app_section_content_text h3 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .app_section_content_text h3 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cyber_security .app_section_content_text h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .app_section_content_text h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .app_section_content_text h3 {
+    margin-bottom: 15px;
+  }
+}
+
+.cyber_security .app_section_content_text ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 479px) {
+  .cyber_security .app_section_content_text ul {
+    flex-wrap: wrap;
+  }
+}
+
+.cyber_security .app_section_content_text ul li {
+  max-width: 100%;
+  flex: 0 0 auto;
+}
+
+.cyber_security .app_section_content_text ul li a {
+  display: block;
+}
+
+.cyber_security .app_section_content_text ul li a:hover img {
+  opacity: .7;
+}
+
+.cyber_security .app_section_content_text ul li a img {
+  border-radius: 5px;
+  opacity: 1;
+  transition: all .4s ease-in-out;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cyber_security .app_section_content_text ul li a img {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cyber_security .app_section_content_text ul li a img {
+    width: 150px;
+  }
+}

@@ -1,0 +1,22 @@
+<?php
+return [
+    "Communication" => "Связь",
+    "Questions & Answer" => "Вопросы и ответы",
+    "Private Messages" => "Личные сообщения",
+    "Message List" => "Список сообщений",
+    "Write your message" => "Напишите свое сообщение",
+    "Search content here" => "Найти здесь содержимое",
+    "Short Code" => "Короткий код",
+    "Field Name" => "Имя поля",
+    "Subscriptions" => "Подписка",
+    "Send Message" => "Отправить сообщение",
+    "Send Email" => "Отправить электронную почту",
+    "Compose Message" => "Составить сообщение",
+    "Your referral link" => "Ссылка на ссылку",
+    "Copy Link" => "Копировать ссылку",
+    "Share the referral link with your friends." => "Поделите связь с друзьями.",
+    "Your referral list" => "Список рефератов",
+    "Let's say Hi" => "Давай скажем Привет",
+    "News Category" => "Категория новостей",
+    "News List" => "Список новостей",
+];

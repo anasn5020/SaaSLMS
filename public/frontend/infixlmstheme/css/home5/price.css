@@ -1,0 +1,177 @@
+/*==== PRICE PAGE CSS ====*/
+.language_school .pricing {
+  background: #f4f9fe;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.language_school .pricing .price_item {
+  --lms-price-item: 40px;
+  background-color: var(--white, #ffffff);
+  padding: 50px 90px;
+  box-shadow: 0px 6px 12px rgba(var(--black, #000000), 0.05);
+  margin-top: 30px;
+  text-align: center;
+  transition: all .4s ease-in-out;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .language_school .pricing .price_item {
+    padding: 40px 60px;
+    --lms-price-item: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .language_school .pricing .price_item {
+    padding: 35px 50px;
+    --lms-price-item: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .pricing .price_item {
+    padding: 30px 40px;
+    --lms-price-item: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_school .pricing .price_item {
+    padding: 30px 50px;
+    --lms-price-item: 20px;
+  }
+}
+
+.language_school .pricing .price_item:hover {
+  box-shadow: 0px 6px 12px rgba(var(--black, #000000), 0.15);
+}
+
+.language_school .pricing .price_item_head {
+  margin-bottom: var(--lms-price-item);
+}
+
+.language_school .pricing .price_item_head h5 {
+  font-size: 24px;
+  line-height: 1.41667;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .language_school .pricing .price_item_head h5 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .pricing .price_item_head h5 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_school .pricing .price_item_head h5 {
+    font-size: 18px;
+  }
+}
+
+.language_school .pricing .price_item_head_icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.language_school .pricing .price_item_head_icon.bg_1 {
+  background-color: rgba(249, 189, 100, 0.08);
+}
+
+.language_school .pricing .price_item_head_icon.bg_2 {
+  background-color: rgba(81, 56, 238, 0.06);
+}
+
+.language_school .pricing .price_item_head_icon.bg_3 {
+  background-color: rgba(94, 198, 232, 0.08);
+}
+
+.language_school .pricing .price_item_head_icon img {
+  width: 24px;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+.language_school .pricing .price_item_body h3 {
+  font-size: 50px;
+  line-height: 1.4;
+  color: var(--frontend-primary-2-200, #00124E);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .language_school .pricing .price_item_body h3 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .language_school .pricing .price_item_body h3 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .pricing .price_item_body h3 {
+    font-size: 31px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_school .pricing .price_item_body h3 {
+    font-size: 28px;
+  }
+}
+
+.language_school .pricing .price_item_body h3 span {
+  font-family: 'DMSans';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.86;
+  text-align: left;
+  color: #687083;
+}
+
+.language_school .pricing .price_item_body h3 sub {
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  color: var(--frontend-text-color, #687083);
+}
+
+.language_school .pricing .price_item_body strong {
+  color: var(--frontend-primary-2-200, #00124E);
+  display: block;
+}
+
+.language_school .pricing .price_item_body p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.language_school .pricing .price_item_body .boxed_btn {
+  margin-top: var(--lms-price-item);
+  display: block;
+  line-height: 1.28571;
+}
+
+.language_school .pricing .price_item_body_price {
+  font-family: 'DMSans';
+  font-size: 16px !important;
+  font-weight: bold !important;
+  line-height: 1.63;
+  text-align: center;
+  color: var(--frontend-primary-2, #130673);
+}

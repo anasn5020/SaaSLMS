@@ -1,0 +1,23 @@
+<?php
+return [
+"Admin Course Revenue List" => "Elenco Entrate del corso admin",
+"Report" => "Relazione",
+"Admin Revenue" => "Entrate Admin",
+"With Discount" => "Con Sconto",
+"Without Discount" => "Senza Sconto",
+"Start Date" => "Data di inizio",
+"End Date" => "Data di fine",
+"Enrolled Student" => "Studente Iscritto",
+"Price" => "Prezzo",
+"Revenue" => "Entrate",
+"Discount" => "Sconto",
+"Enrolled Date" => "Data iscrizione",
+"Purchase ID" => "ID di acquisto",
+"Scorm Report" => "Report di Scorm",
+"XAPI Report" => "Report XAPI",
+"H5P" => "H5P",
+"H5P Info" => "H5P Info",
+"Score" => "Punteggio",
+"Total Score" => "Punteggio Totale",
+"H5P Report" => "Report H5P",
+];

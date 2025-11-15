@@ -1,0 +1,155 @@
+/*==== FUN FACT AREA CSS ====*/
+.cooking_lms .fun_fact_inner {
+  background-image: url(../../img/cooking_lms/funfact-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+  padding-bottom: 310px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .fun_fact_inner {
+    padding-bottom: 250px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .fun_fact_inner {
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right: 50px;
+    padding-bottom: 230px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .fun_fact_inner {
+    padding-top: 0px;
+    padding-bottom: 200px;
+    background: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .fun_fact_inner {
+    background: none;
+    padding-top: 0;
+    padding-bottom: 0px;
+  }
+}
+
+.cooking_lms .fun_fact .row {
+  --lms-funfact: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+  .cooking_lms .fun_fact .row {
+    margin-bottom: calc(var(--lms-funfact) * -1);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cooking_lms .fun_fact_card {
+    margin-bottom: calc(var(--lms-funfact) * 1);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .fun_fact_card {
+    padding-right: 30px;
+  }
+  html[dir="rtl"] .cooking_lms .fun_fact_card {
+    padding-left: 30px;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cooking_lms .fun_fact_card {
+    text-align: center;
+  }
+}
+
+.cooking_lms .fun_fact_card_icon {
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .fun_fact_card_icon {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .fun_fact_card_icon {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .fun_fact_card_icon {
+    margin-bottom: 20px;
+  }
+}
+
+.cooking_lms .fun_fact_card_icon img,
+.cooking_lms .fun_fact_card_icon svg {
+  height: 100%;
+  object-fit: contain;
+}
+
+.cooking_lms .fun_fact_card h5 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cooking_lms .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .cooking_lms .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .fun_fact_card h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .fun_fact_card h5 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .fun_fact_card h5 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .fun_fact_card h5 {
+    margin-bottom: 5px;
+  }
+}

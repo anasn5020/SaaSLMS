@@ -1,0 +1,22 @@
+<?php
+return [
+"organization" => "организационная структура",
+"Organization" => "Организация",
+"financial_report" => "Финансовый отчет",
+"sales_report" => "Отчет о продаже",
+"income" => "Поступления",
+"topic" => "Тема",
+"account_balance" => "Баланс счета",
+"ready_to_payout" => "Готов к оплате",
+"total_income" => "Общая сумма поступлений",
+"payout_history" => "Хронология выплат",
+"request_payout" => "Запрос Payout",
+"payout_confirmation" => "Подтверждение выплаты",
+"total_payout" => "Общая сумма платежа",
+"account" => "учетная запись",
+"completed" => "Завершено",
+"confirmation" => "Подтверждение",
+"admin_profit" => "Административная прибыль",
+"account_type" => "Тип счета",
+"student" => "Студент",
+];

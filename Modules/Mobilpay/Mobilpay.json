@@ -1,0 +1,21 @@
+{
+    "Mobilpay": {
+        "item_id": "30626608",
+        "migration": [
+            "2021_08_12_155845_AddMobilpayPaymentMethod.php",
+            "2021_08_17_152524_create_mobil_pay_orders_table.php"
+        ],
+        "names": [
+            "mobil_pay_orders"
+        ],
+        "versions": [
+            "1.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "Mobilpay is one of the   payment gateway . Thanks for using."
+        ]
+    }
+}

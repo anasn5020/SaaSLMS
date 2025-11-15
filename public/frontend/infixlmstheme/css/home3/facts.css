@@ -1,0 +1,165 @@
+/*==== FUN FACT AREA CSS ====*/
+.single_instructor .fun_fact_inner {
+  background-color: var(--frontend-extara-light-white, #f9f9fc);
+  padding-top: var(--section-separate);
+  padding-bottom: 330px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .single_instructor .fun_fact_inner {
+    padding-bottom: 250px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single_instructor .fun_fact_inner {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 230px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_instructor .fun_fact_inner {
+    padding: 40px;
+    padding-bottom: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_instructor .fun_fact_inner {
+    padding-top: 0;
+    padding-bottom: 0px;
+    background: none;
+  }
+}
+
+.single_instructor .fun_fact .row {
+  --lms-funfact: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+  .single_instructor .fun_fact .row {
+    margin-bottom: calc(var(--lms-funfact) * -1);
+  }
+}
+
+.single_instructor .fun_fact_card {
+  padding-right: 40px;
+}
+
+html[dir="rtl"] .single_instructor .fun_fact_card {
+  padding-left: 40px;
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .single_instructor .fun_fact_card {
+    margin-bottom: calc(var(--lms-funfact) * 1);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_instructor .fun_fact_card {
+    padding-right: 30px;
+  }
+  html[dir="rtl"] .single_instructor .fun_fact_card {
+    padding-left: 30px;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .single_instructor .fun_fact_card {
+    text-align: center;
+  }
+}
+
+.single_instructor .fun_fact_card_icon {
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single_instructor .fun_fact_card_icon {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_instructor .fun_fact_card_icon {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_instructor .fun_fact_card_icon {
+    margin-bottom: 20px;
+  }
+}
+
+.single_instructor .fun_fact_card_icon img,
+.single_instructor .fun_fact_card_icon svg {
+  height: 100%;
+  object-fit: contain;
+}
+
+.single_instructor .fun_fact_card_icon img path,
+.single_instructor .fun_fact_card_icon svg path {
+  fill: var(--frontend-primary, #4254FF);
+}
+
+.single_instructor .fun_fact_card h5 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .single_instructor .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single_instructor .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .single_instructor .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .single_instructor .fun_fact_card h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .single_instructor .fun_fact_card h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single_instructor .fun_fact_card h5 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_instructor .fun_fact_card h5 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_instructor .fun_fact_card h5 {
+    margin-bottom: 5px;
+  }
+}

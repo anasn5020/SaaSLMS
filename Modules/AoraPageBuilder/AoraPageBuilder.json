@@ -1,0 +1,18 @@
+{
+    "AoraPageBuilder": {
+        "item_id": "30626608",
+        "migration": [
+        ],
+        "names": [
+        ],
+        "versions": [
+            "1.0.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "This is Page Builder module for Infix LMS. Thanks for using."
+        ]
+    }
+}

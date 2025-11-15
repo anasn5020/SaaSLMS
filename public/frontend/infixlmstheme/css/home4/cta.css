@@ -1,0 +1,200 @@
+@media only screen and (max-width: 767px) {
+  .university .cta_area2 .col-md-6:last-child {
+    margin-top: 20px;
+  }
+}
+
+.university .cta_area2_card {
+  background-color: var(--frontend-primary, #EE8C1B);
+  padding: 60px;
+  padding-right: 45% !important;
+  position: relative;
+  z-index: 1;
+}
+
+html[dir=rtl] .university .cta_area2_card {
+  padding-left: 45% !important;
+  padding-right: 0 !important;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .university .cta_area2_card {
+    padding: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .cta_area2_card {
+    padding: 40px;
+    padding-right: 35% !important;
+  }
+  html[dir=rtl] .university .cta_area2_card {
+    padding-left: 35% !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .cta_area2_card {
+    padding: 35px;
+    padding-right: 35% !important;
+  }
+  html[dir=rtl] .university .cta_area2_card {
+    padding-left: 35% !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .cta_area2_card {
+    padding: 25px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .cta_area2_card {
+    padding: 25px 50px !important;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .university .cta_area2_card {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.university .cta_area2_card.bg-2::before {
+  right: 0px;
+  background-position: right top;
+}
+
+html[dir=rtl] .university .cta_area2_card.bg-2::before {
+  left: 0px;
+  right: auto;
+  background-position: left top;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .cta_area2_card.bg-2::before {
+    width: 50%;
+  }
+}
+
+.university .cta_area2_card::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: var(--shape);
+  background-size: auto;
+  background-position: center right;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  z-index: -1;
+}
+
+html[dir=rtl] .university .cta_area2_card::before {
+  left: 40px;
+  right: auto;
+  background-position: center left;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .cta_area2_card::before {
+    right: 10px;
+    width: 40%;
+    background-size: contain;
+  }
+  html[dir=rtl] .university .cta_area2_card::before {
+    left: 10px;
+    right: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .cta_area2_card::before {
+    width: 40%;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .university .cta_area2_card::before {
+    display: none;
+  }
+}
+
+.university .cta_area2_card span {
+  margin-bottom: 20px;
+  color: var(--frontend-white, #ffffff);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .cta_area2_card span {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .cta_area2_card span {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .cta_area2_card span {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .cta_area2_card span {
+    margin-bottom: 10px;
+  }
+}
+
+.university .cta_area2_card h4 {
+  font-size: 24px;
+  line-height: 1.41667;
+  margin-bottom: 30px;
+  color: var(--frontend-white, #ffffff);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .cta_area2_card h4 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .cta_area2_card h4 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .cta_area2_card h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .cta_area2_card h4 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .cta_area2_card h4 {
+    margin-bottom: 15px;
+  }
+}
+
+.university .cta_area2_card a {
+  background-color: var(--frontend-white, #ffffff);
+  color: var(--frontend-primary, #EE8C1B);
+}

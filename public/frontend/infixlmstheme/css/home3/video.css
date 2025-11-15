@@ -1,0 +1,63 @@
+/*==== VIDEO AREA CSS ====*/
+.single_instructor .video_area {
+  --lms-video-margin: 460px;
+  margin-top: calc(var(--lms-video-margin) / -2);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .single_instructor .video_area {
+    --lms-video-margin: 364px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single_instructor .video_area {
+    --lms-video-margin: 306px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_instructor .video_area {
+    --lms-video-margin: 286px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_instructor .video_area {
+    --lms-video-margin: 0px;
+    margin-top: 80px;
+  }
+}
+
+.single_instructor .video_area_banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border: 6px solid var(--frontend-white, #ffffff);
+  padding-bottom: 48.20%;
+  background-color: var(--frontend-primary, #4254FF);
+  overflow: hidden;
+  position: relative;
+}
+
+.single_instructor .video_area_banner_play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  --lms-video-icon: 60px;
+  width: var(--lms-video-icon);
+  height: var(--lms-video-icon);
+  border-radius: 100%;
+  color: var(--frontend-primary, #4254FF) !important;
+  justify-content: center;
+  background-color: var(--frontend-white, #ffffff);
+}
+
+.single_instructor .video_area_banner_play:hover {
+  background-color: var(--frontend-primary, #4254FF);
+  color: var(--frontend-white, #ffffff) !important;
+}

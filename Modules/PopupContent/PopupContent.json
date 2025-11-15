@@ -1,0 +1,20 @@
+{
+    "PopupContent": {
+        "item_id": "30626608",
+        "migration": [
+            "2021_10_07_170216_create_popup_contents_table.php"
+        ],
+        "names": [
+            "PopupContent"
+        ],
+        "versions": [
+            "1.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "PopupContent module for InfixLMS"
+        ]
+    }
+}

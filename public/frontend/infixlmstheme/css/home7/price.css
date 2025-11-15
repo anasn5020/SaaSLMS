@@ -1,0 +1,305 @@
+.digital_marketing .price .d-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .price .d-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .price .d-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .price .d-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+}
+
+.digital_marketing .price_item {
+  margin-top: 40px;
+  border: 6px solid transparent;
+  border-radius: 20px;
+  --lms-price-sp: 40px;
+  --lms-price-sp-y: 50px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .price_item {
+    --lms-price-sp: 30px;
+    --lms-price-sp-y: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .price_item {
+    --lms-price-sp: 30px;
+    --lms-price-sp-y: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .price_item {
+    --lms-price-sp: 25px;
+    --lms-price-sp-y: 30px;
+    border-width: 4px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .price_item {
+    --lms-price-sp: 25px;
+    --lms-price-sp-y: 30px;
+    border-width: 3px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .price_item {
+    border-width: 2px;
+    --lms-price-sp: 20px;
+    --lms-price-sp-y: 25px;
+    margin-top: 25px;
+  }
+}
+
+.digital_marketing .price_item[data-price-popular] {
+  position: relative;
+  z-index: 1;
+  border-color: var(--frontend-primary, #3C2CEB);
+}
+
+.digital_marketing .price_item[data-price-popular]::before {
+  content: attr(data-price-popular);
+  display: inline-block;
+  background-color: var(--frontend-primary, #3C2CEB);
+  color: var(--frontend-white, #ffffff);
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100px;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 20px;
+  line-height: 1.5;
+}
+
+.digital_marketing .price_item_wrapper {
+  background-color: var(--frontend-white, #ffffff);
+  box-shadow: 5px 5px 10px rgba(var(--frontend-black, #000000), 0.02);
+  padding: 0px var(--lms-price-sp);
+  padding-top: var(--lms-price-sp-y);
+  border: 1px solid var(--frontend-border-light, #F8F7FC);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.digital_marketing .price_item_wrapper #icon {
+  --lms-price-icon: 80px;
+  width: var(--lms-price-icon);
+  height: var(--lms-price-icon);
+  border-radius: 100%;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .price_item_wrapper #icon {
+    --lms-price-icon: 70px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .price_item_wrapper #icon {
+    --lms-price-icon: 60px;
+    margin-bottom: 10px;
+  }
+}
+
+.digital_marketing .price_item_wrapper #icon img,
+.digital_marketing .price_item_wrapper #icon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.digital_marketing .price_item_wrapper p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .price_item_wrapper p {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .price_item_wrapper p {
+    margin-bottom: 15px;
+  }
+}
+
+.digital_marketing .price_item_wrapper h3 {
+  font-size: 60px;
+  line-height: 1.15;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .digital_marketing .price_item_wrapper h3 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .price_item_wrapper h3 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .price_item_wrapper h3 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .price_item_wrapper h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .price_item_wrapper h3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .price_item_wrapper h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .price_item_wrapper h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .price_item_wrapper h3 {
+    margin-bottom: 15px;
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .price_item_wrapper h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+}
+
+.digital_marketing .price_item_wrapper h3 * {
+  font-weight: 400;
+}
+
+.digital_marketing .price_item_wrapper a {
+  --lms-sub-btn: 23px;
+  position: relative;
+  bottom: calc(var(--lms-sub-btn) * -1);
+  margin-top: calc(var(--lms-sub-btn) * -1);
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .price_item_wrapper a {
+    --lms-sub-btn: 18px;
+  }
+}
+
+.digital_marketing .price_item_info {
+  padding: 0px var(--lms-price-sp);
+  padding-top: 60px;
+  padding-bottom: var(--lms-price-sp-y);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .price_item_info {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .price_item_info {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .price_item_info {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .price_item_info {
+    padding-top: 35px;
+  }
+}
+
+.digital_marketing .price_item_info ul li {
+  display: flex;
+}
+
+.digital_marketing .price_item_info ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .price_item_info ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .price_item_info ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .price_item_info ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .price_item_info ul li:not(:last-child) br {
+    display: none;
+  }
+}
+
+.digital_marketing .price_item_info ul li i {
+  font-size: 6px;
+  line-height: 26px;
+  margin-right: 10px;
+}
+
+html[dir="rtl"] .digital_marketing .price_item_info ul li i {
+  margin-left: 10px;
+  margin-right: 0px;
+}

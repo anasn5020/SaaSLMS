@@ -1,0 +1,21 @@
+<?php
+return [
+"Members" => "Üyeler",
+"Registered Members" => "Kayıtlı Üyeler",
+"Last Submission" => "Son Gönderme",
+"Enabled" => "Etkin",
+"Disabled" => "Devre dışı",
+"Enable" => "Etkinleştir",
+"Disable" => "Geçersiz Kıl",
+"View" => "Görüntüle",
+"Name" => "Ad",
+"Email" => "Eposta",
+"Phone" => "Telefon",
+"Registration Status" => "Kayıt Durumu",
+"Submission Date" => "Gönderim Tarihi",
+"Export" => "Dışa Aktar",
+"Export List" => "Listeyi Dışa Aktar",
+"Send Notification" => "Gönderme Bildirimi",
+"Choose which columns you see" => "Görmenizi istediğiniz kolonları seçin",
+"Cancel" => "İptal",
+];

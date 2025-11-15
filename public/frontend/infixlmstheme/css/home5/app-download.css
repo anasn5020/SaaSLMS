@@ -1,0 +1,188 @@
+/*==== APP SECTION AREA CSS ====*/
+.language_school .app_section {
+  background: var(--frontend-aqua-50, #f4f9fe);
+  padding-top: 50px;
+}
+
+.language_school .app_section_content {
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .app_section_content {
+    --lms-app-sp: 40px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_school .app_section_content {
+    --lms-app-sp: 30px;
+    text-align: center;
+  }
+}
+
+.language_school .app_section_content_img {
+  position: absolute;
+  bottom: 0;
+  right: 12%;
+  width: 385px;
+  height: 352px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .language_school .app_section_content_img {
+    right: 2%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .language_school .app_section_content_img {
+    display: none;
+  }
+}
+
+html[dir="rtl"] .language_school .app_section_content_img {
+  left: 12%;
+  right: auto;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html[dir="rtl"] .language_school .app_section_content_img {
+    left: 2%;
+    right: auto;
+  }
+}
+
+.language_school .app_section_content_text span {
+  margin-bottom: 14px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .app_section_content_text span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .language_school .app_section_content_text span {
+    margin-bottom: 8px;
+  }
+}
+
+.language_school .app_section_content_text h3 {
+  font-size: 40px;
+  line-height: 1.375;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .language_school .app_section_content_text h3 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .language_school .app_section_content_text h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .app_section_content_text h3 {
+    font-size: 30px;
+    line-height: 1.3125;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_school .app_section_content_text h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .language_school .app_section_content_text h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .language_school .app_section_content_text h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_school .app_section_content_text h3 {
+    margin-bottom: 15px;
+  }
+}
+
+.language_school .app_section_content_text ul {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .language_school .app_section_content_text ul {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .language_school .app_section_content_text ul {
+    flex-wrap: wrap;
+  }
+}
+
+.language_school .app_section_content_text ul li {
+  max-width: 100%;
+  flex: 0 0 auto;
+}
+
+@media only screen and (max-width: 479px) {
+  .language_school .app_section_content_text ul li {
+    flex: 0 0 100%;
+  }
+}
+
+.language_school .app_section_content_text ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+html[dir="rtl"] .language_school .app_section_content_text ul li:not(:last-child) {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+@media only screen and (max-width: 479px) {
+  .language_school .app_section_content_text ul li:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  html[dir="rtl"] .language_school .app_section_content_text ul li:not(:last-child) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.language_school .app_section_content_text ul li a {
+  display: block;
+}
+
+.language_school .app_section_content_text ul li a:hover img {
+  opacity: .7;
+}
+
+.language_school .app_section_content_text ul li a img {
+  border-radius: 5px;
+  opacity: 1;
+  transition: all .4s ease-in-out;
+}
+
+@media only screen and (max-width: 479px) {
+  .language_school .app_section_content_text ul li a img {
+    width: 150px;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "9.0.0",
+  "min": "8.2.0",
+  "release_date": "19/02/2025",
+  "migrations": [
+    "Modules/NotificationSetup/Database/Migrations/2024_12_24_134650_AddMissingNotificaitonRolePermission.php",
+    "Modules/Setting/Database/Migrations/2025_01_22_104537_add_approval_activaiton_setting.php",
+    "Modules/CourseSetting/Database/Migrations/2025_02_26_113454_create_course_badges_table.php",
+    "Modules/CourseSetting/Database/Migrations/2025_04_02_153123_AddPriceTextColumnInCourses.php"
+  ],
+  "url": "https://www.aorasoft.com/",
+  "notes": "This is a bug fixing & new feature update."
+}
+
+

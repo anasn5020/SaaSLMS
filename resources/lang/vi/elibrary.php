@@ -1,0 +1,23 @@
+<?php
+return [
+"E-Library" => "E-Library",
+"Ebook" => "Ebook",
+"Author Name" => "Tên tác giả",
+"Publisher Name" => "Tên phát hành",
+"Ebook List" => "Danh sách sách",
+"Add New EBook" => "Thêm văn bản mới",
+"Update EBook" => "Cập nhật EBook",
+"Select Access Type" => "Chọn kiểu truy cập",
+"All Student" => "Mọi sinh viên",
+"access_type" => "yêu cầu",
+"Access" => "Truy cập",
+"Access Type" => "Kiểu truy cập",
+"Ebook Created Successfully" => "Ebook được tạo thành công",
+"Ebook Delete Successfully" => "Xóa Ebook thành công",
+"Ebook Update Failed" => "Cập nhật ebook thất bại",
+"Ebook Update Successfully" => "Cập nhật ebook thành công",
+"Access Type Of Student" => "Truy Cập Kiểu Sinh Viên",
+"You are not eligible" => "Anh không đủ tư cách",
+"Book View" => "Xem sách",
+"Add Ebook" => "Thêm ebook",
+];

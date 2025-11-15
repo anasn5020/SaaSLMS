@@ -1,0 +1,21 @@
+<?php
+return [
+"Members" => "সদস্যরা",
+"Registered Members" => "নিবন্ধিত সদস্যরা",
+"Last Submission" => "সর্বশেষ সাবমিশন",
+"Enabled" => "সক্রিয়",
+"Disabled" => "নিষ্ক্রিয়",
+"Enable" => "সক্রিয় করো",
+"Disable" => "নিষ্ক্রিয় করো",
+"View" => "ভিউ",
+"Name" => "নাম:",
+"Email" => "ই-মেইল",
+"Phone" => "ফোন",
+"Registration Status" => "নিবন্ধন অবস্থা",
+"Submission Date" => "সাবমিশন তারিখ",
+"Export" => "রপ্তানি করো",
+"Export List" => "তালিকা রপ্তানি করো",
+"Send Notification" => "বিজ্ঞপ্তি প্রেরণ করুন",
+"Choose which columns you see" => "যে কলাম আপনি দেখেন তা বেছে নিন",
+"Cancel" => "বাতিল করো",
+];

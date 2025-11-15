@@ -1,0 +1,83 @@
+.bootstrap-datetimepicker-widget table td .btn.btn-primary {
+    background: 0 0 !important
+}
+
+.student-certificate {
+    position: relative
+}
+
+.student-certificate .signature {
+    font-size: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase
+}
+
+.student-certificate .certificate-position {
+    top: 20% !important;
+    position: absolute;
+    bottom: 14%;
+    left: 65px !important;
+    right: 65px !important;
+    margin: auto
+}
+
+.mt_m_10 {
+    margin-top: -10px
+}
+
+.bootstrap-datetimepicker-widget table td .btn.btn-primary:hover {
+    background: linear-gradient(90deg, #7c32ff 0, #c738d8 51%, #7c32ff 100%) !important;
+    color: #fff !important;
+    transition: .4s
+}
+
+.div_50 {
+    width: 50%;
+    float: left
+}
+
+.div_100 {
+    width: 100%;
+    float: left
+}
+
+fieldset, label {
+    margin: 0;
+    padding: 0
+}
+
+.rating {
+    border: none;
+    float: left
+}
+
+.rating > input {
+    display: none
+}
+
+.rating > label:before {
+    margin: 0 3px;
+    font-size: 20px;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005"
+}
+
+.rating > .half:before {
+    content: "\f089";
+    position: absolute
+}
+
+.rating > label {
+    color: #ddd;
+    float: right;
+    cursor: pointer
+}
+
+.rating:not(:checked) > label:hover, .rating:not(:checked) > label:hover ~ label, .rating > input:checked ~ label {
+    color: gold
+}
+
+.rating > input:checked + label:hover, .rating > input:checked ~ label:hover, .rating > input:checked ~ label:hover ~ label, .rating > label:hover ~ input:checked ~ label {
+    color: #ffed85
+}

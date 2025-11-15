@@ -1,0 +1,361 @@
+/*=== CALL TO ACTION ===*/
+@media only screen and (min-width: 1581px) {
+  .cooking_lms .cta_area_inner {
+    padding-right: 50px;
+  }
+}
+
+.cooking_lms .cta_area_inner span {
+  margin-bottom: 20px;
+}
+
+.cooking_lms .cta_area_inner h3 {
+  font-size: 40px;
+  line-height: 1.625;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .cta_area_inner h3 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .cta_area_inner h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .cta_area_inner h3 {
+    font-size: 28px;
+    line-height: 1.3125;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .cta_area_inner h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cooking_lms .cta_area_inner h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .cta_area_inner h3 {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .cta_area_inner h3 {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .cta_area_inner h3 {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .cta_area_inner h3 {
+    margin-bottom: 25px;
+  }
+}
+
+.cooking_lms .cta_area_inner ul {
+  display: flex;
+  align-items: center;
+}
+
+.cooking_lms .cta_area_inner ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.cooking_lms .cta_area_inner ul li a {
+  display: block;
+  width: 215px;
+  height: 70px;
+  opacity: 1;
+  background-color: var(--frontend-primary, #f28054);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .cta_area_inner ul li a {
+    width: 100%;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .cta_area_inner ul li a {
+    width: 180px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .cta_area_inner ul li a {
+    width: 170px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .cooking_lms .cta_area_inner ul li a {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.cooking_lms .cta_area_inner ul li a:hover {
+  opacity: .8;
+  background-color: var(--frontend-primary-2, #4D3222);
+}
+
+.cooking_lms .cta_area_inner ul li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cooking_lms .cta_area_img {
+  width: 100%;
+  height: 580px;
+  padding-left: 60px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .cooking_lms .cta_area_img {
+    height: 535px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .cta_area_img {
+    height: 450px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .cta_area_img {
+    padding-left: 30px;
+    height: 385px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .cta_area_img {
+    padding-left: 0;
+    height: 350px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .cta_area_img {
+    margin-top: 20px;
+    padding-left: 0px;
+    height: 350px;
+  }
+}
+
+html[dir="rtl"] .cooking_lms .cta_area_img {
+  padding-right: 60px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html[dir="rtl"] .cooking_lms .cta_area_img {
+    padding-right: 30px;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html[dir="rtl"] .cooking_lms .cta_area_img {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html[dir="rtl"] .cooking_lms .cta_area_img {
+    padding-left: 0px;
+    padding-right: 0;
+  }
+}
+
+.cooking_lms .cta_area_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .cta_area2 .col-md-6:last-child {
+    margin-top: 20px;
+  }
+}
+
+.cooking_lms .cta_area2_card {
+  background-color: var(--frontend-primary-light, #F4F3F0);
+  padding: 60px;
+  padding-right: 45%;
+  position: relative;
+  z-index: 1;
+}
+
+html[dir="rtl"] .cooking_lms .cta_area2_card {
+  padding-left: 45%;
+  padding-right: 60px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .cooking_lms .cta_area2_card {
+    padding: 50px;
+    padding-right: 35%;
+  }
+  html[dir="rtl"] .cooking_lms .cta_area2_card {
+    padding-left: 35%;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .cta_area2_card {
+    padding: 40px;
+    padding-right: 30%;
+  }
+  html[dir="rtl"] .cooking_lms .cta_area2_card {
+    padding-left: 30%;
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .cta_area2_card {
+    padding: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .cta_area2_card {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .cta_area2_card {
+    padding: 25px 50px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .cooking_lms .cta_area2_card {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.cooking_lms .cta_area2_card::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: var(--shape);
+  background-size: auto;
+  background-position: center right;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  z-index: -1;
+}
+
+html[dir="rtl"] .cooking_lms .cta_area2_card::before {
+  left: 40px;
+  right: auto;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .cta_area2_card::before {
+    right: 10px;
+    width: 40%;
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .cta_area2_card::before {
+    width: 40%;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cooking_lms .cta_area2_card::before {
+    display: none;
+  }
+}
+
+.cooking_lms .cta_area2_card span {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .cta_area2_card span {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .cta_area2_card span {
+    margin-bottom: 15px;
+  }
+}
+
+.cooking_lms .cta_area2_card h4 {
+  font-size: 24px;
+  line-height: 1.41667;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .cta_area2_card h4 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .cta_area2_card h4 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .cta_area2_card h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .cta_area2_card h4 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .cta_area2_card h4 {
+    margin-bottom: 10px;
+  }
+}

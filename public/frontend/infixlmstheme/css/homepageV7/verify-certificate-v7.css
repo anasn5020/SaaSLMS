@@ -1,0 +1,134 @@
+.gap-14 {
+  gap: 14px;
+}
+
+.verify_certificate_section {
+  padding-top: 74px;
+  padding-bottom: 200px;
+}
+
+.verify_certificate_image {
+  width: 500px;
+  margin-bottom: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .verify_certificate_image {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .verify_certificate_image {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .verify_certificate_image {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .verify_certificate_image {
+    width: 260px;
+  }
+}
+
+.verify_certificate_title {
+  font-family: var(--fontFamily1, "Plus Jakarta Sans", sans-serif);
+  font-size: 40px;
+  color: #141C24;
+  margin-bottom: 34px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .verify_certificate_title {
+    font-size: 36px;
+    margin-bottom: 28px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .verify_certificate_title {
+    font-size: 32px;
+    margin-bottom: 26px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .verify_certificate_title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .verify_certificate_form {
+    flex-direction: column;
+  }
+}
+
+.verify_certificate_input {
+  height: 50px;
+  border: 1px solid #BEC3CC;
+  background: #FFFFFF;
+  border-radius: 6px;
+  width: 450px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #141C24;
+  padding: 14px 16px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .verify_certificate_input {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .verify_certificate_input {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .verify_certificate_input {
+    width: 340px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .verify_certificate_input {
+    width: 300px;
+  }
+}
+
+.verify_certificate_input::placeholder {
+  color: #656A7B;
+}
+
+.verify_certificate_search {
+  height: 50px;
+  background: linear-gradient(77.16deg, #660AFB 13.44%, #BF37FF 50%, #660AFB 87.24%);
+  background-size: 200% auto;
+  color: #fff;
+  font-size: 18px;
+  font-family: var(--fontFamily1, "Plus Jakarta Sans", sans-serif);
+  font-weight: 600;
+  line-height: 22px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+}
+
+.verify_certificate_search:hover {
+  background-position: right;
+}

@@ -1,0 +1,265 @@
+.digital_marketing .banner_area {
+  padding-top: 190px;
+  background-image: url(../img/shapes/banner.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .digital_marketing .banner_area {
+    background-size: 45%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .banner_area {
+    background-size: 45%;
+    padding-top: 170px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .banner_area {
+    background-size: 40%;
+    padding-top: 140px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .banner_area {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    background-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .banner_area {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .banner_area {
+    padding-top: 80px;
+    padding-bottom: 35px;
+  }
+}
+
+.digital_marketing .banner_area_content span {
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .banner_area_content span {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .banner_area_content span {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .banner_area_content span {
+    margin-bottom: 10px;
+  }
+}
+
+.digital_marketing .banner_area_content h1 {
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .digital_marketing .banner_area_content h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .banner_area_content h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .banner_area_content h1 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .banner_area_content h1 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .banner_area_content h1 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .banner_area_content h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .banner_area_content h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .banner_area_content h1 {
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .banner_area_content h1 {
+    margin-bottom: 15px;
+    font-size: 34px;
+    line-height: 1.3;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .banner_area_content h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 1.3;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .banner_area_content h1 {
+    margin-bottom: 15px;
+    font-size: 26px;
+  }
+}
+
+.digital_marketing .banner_area_content p {
+  font-size: 18px;
+  line-height: 1.66667;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .banner_area_content p {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .banner_area_content p {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .banner_area_content p {
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .banner_area_content p {
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .banner_area_content p {
+    margin-bottom: 20px;
+  }
+}
+
+.digital_marketing .banner_area_content .boxed_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .banner_area_content .boxed_btn {
+    width: 180px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .banner_area_content .boxed_btn {
+    width: max-content;
+    height: auto;
+    display: inline-block !important;
+    padding: 12px 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .banner_area_content .boxed_btn {
+    margin: auto;
+  }
+}
+
+.digital_marketing .banner_area_img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1581px) {
+  .digital_marketing .banner_area_img {
+    width: 850px;
+    margin-left: 40px;
+  }
+  html[dir="rtl"] .digital_marketing .banner_area_img {
+    margin-left: 0px;
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .banner_area_img {
+    width: 90%;
+    margin-left: auto;
+  }
+  html[dir="rtl"] .digital_marketing .banner_area_img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .banner_area_img {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+
+.digital_marketing .banner_area_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.digital_marketing .heading_clear ~ .bannerArea {
+  margin-top: -90px;
+}

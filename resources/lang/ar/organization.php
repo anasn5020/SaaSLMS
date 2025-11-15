@@ -1,0 +1,22 @@
+<?php
+return [
+"organization" => "الشركة",
+"Organization" => "المؤسسة",
+"financial_report" => "التقرير المالي",
+"sales_report" => "تقرير المبيعات",
+"income" => "الإيرادات",
+"topic" => "الموضوع",
+"account_balance" => "رصيد الحساب",
+"ready_to_payout" => "جاهز للدفع",
+"total_income" => "مجموع الإيرادات",
+"payout_history" => "تاريخ الدفع",
+"request_payout" => "طلب الدفع",
+"payout_confirmation" => "تأكيد الدفع",
+"total_payout" => "مجموع المبالغ المستحقة الدفع",
+"account" => "الحساب",
+"completed" => "تم الانتهاء",
+"confirmation" => "تأكيد",
+"admin_profit" => "الربح الادارى",
+"account_type" => "نوع الحساب",
+"student" => "طالب",
+];

@@ -1,0 +1,21 @@
+<?php
+return [
+"Footer" => "ফুটার",
+"Footer Settings" => "ফোটার সেটিংস",
+"Dashboard" => "ড্যাশবোর্ড",
+"Frontend CMS" => "সম্মুখপ্রান্ত CMS",
+"Copyright Text" => "কপিরাইট লেখা",
+"About Text" => "টেক্সট পরিচিতি",
+"Section name" => "সেকশন নাম",
+"About Description" => "@ title: window",
+"Add New Page" => "নতুন পাতা যোগ করো",
+"Cancel" => "বাতিল করো",
+"Widget" => "উইজেট",
+"Page Name" => "পৃষ্ঠার নাম",
+"Edit Link" => "লিঙ্ক সম্পাদন করো",
+"Widget Title" => "উইজেট শিরোনাম",
+"Add Link" => "লিঙ্ক যোগ করো",
+"Select Page" => "পৃষ্ঠা বেছে নিন",
+"Are you sure" => "আপনি কি নিশ্চিত",
+"Custom Link" => "স্বনির্বাচিত লিংক",
+];

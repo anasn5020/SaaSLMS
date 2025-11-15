@@ -1,0 +1,213 @@
+.digital_marketing .bundle_item {
+  margin-top: 30px;
+  padding: 40px;
+  background-image: url(../img/shapes/bundle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 6px 12px rgba(var(--frontend-black, #000000), 0.06);
+  border: 1px solid var(--frontend-border-light, #F8F7FC);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .bundle_item {
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .bundle_item {
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .bundle_item {
+    padding: 30px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .bundle_item {
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .bundle_item .d-flex {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .bundle_item .d-flex > div {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
+.digital_marketing .bundle_item h4 {
+  font-size: 24px;
+  line-height: 1.41667;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .bundle_item h4 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .bundle_item h4 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .bundle_item h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .bundle_item h4 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .bundle_item h4 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .bundle_item h4 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .bundle_item h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+}
+
+.digital_marketing .bundle_item h4 sup {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--frontend-text-color, #687083);
+}
+
+.digital_marketing .bundle_item p {
+  padding-right: 50px;
+  margin-bottom: 40px;
+}
+
+html[dir="rtl"] .digital_marketing .bundle_item p {
+  padding-right: 0;
+  padding-left: 50px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .bundle_item p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .bundle_item p {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .bundle_item p {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  html[dir="rtl"] .digital_marketing .bundle_item p {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .bundle_item p {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .bundle_item p {
+    margin-bottom: 25px;
+    padding-right: 10px;
+  }
+  html[dir="rtl"] .digital_marketing .bundle_item p {
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .bundle_item p {
+    padding-right: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  html[dir="rtl"] .digital_marketing .bundle_item p {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .bundle_item a {
+    display: block;
+  }
+}
+
+.digital_marketing .bundle_item ul li {
+  display: flex;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .bundle_item ul li {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .bundle_item ul li {
+    font-size: 14px;
+  }
+}
+
+.digital_marketing .bundle_item ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .bundle_item ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .bundle_item ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.digital_marketing .bundle_item ul li i {
+  font-size: 5px;
+  margin-right: 10px;
+  color: var(--frontend-primary, #3C2CEB);
+  line-height: 26px;
+}
+
+html[dir="rtl"] .digital_marketing .bundle_item ul li i {
+  margin-right: 0;
+  margin-left: 10px;
+}

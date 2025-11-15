@@ -1,0 +1,20 @@
+{
+    "Newsletter": {
+    	  "item_id": "30626608",
+        "migration": [
+            "2021_04_25_111116_create_newsletter_settings_table.php"
+        ],
+        "names": [
+            "newsletter_settings"
+        ],
+        "versions": [
+            "1.0.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "This is a Newsletter module for generate leads. Thanks for using."
+        ]
+    }
+}

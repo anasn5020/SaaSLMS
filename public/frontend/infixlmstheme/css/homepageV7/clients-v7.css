@@ -1,0 +1,56 @@
+.mx-12{
+    margin: 0 12px!important;
+}
+
+.clients-area {
+    margin-top: 45px;
+    margin-bottom: 75px;
+}
+
+.clients-area-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #1F2B40;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    .clients-area-title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .clients-area-title {
+        font-size: 16px;
+    }
+}
+
+.clients-area-title .count {
+    color: #fff;
+    background: var(--system_primary_color, linear-gradient(173.69deg, #660AFB 26.21%, #A737FF 81.64%));
+    border-radius: 4px;
+    padding: 0px 6px;
+    background-size: 200% auto;
+}
+
+.clients-area-slider{
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 40px;
+}
+.clients-area-slider .owl-stage{
+    margin: 0 auto;
+}
+
+/* .clients-area .owl-stage-outer {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 40px;
+} */
+
+.clients-area-slider-item img {
+    height: 30px;
+    max-height: 30px;
+    width: auto !important;
+    margin: 0 auto;
+}

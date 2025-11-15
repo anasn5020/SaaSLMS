@@ -1,0 +1,305 @@
+/*=== COURSES CSS ===*/
+.cooking_lms .course_item {
+  position: relative;
+  height: 100%;
+}
+
+.cooking_lms .course_item:hover img {
+  transform: scale(1.1);
+}
+
+.cooking_lms .course_item:hover .course_item_inner_title {
+  color: var(--frontend-primary, #f28054);
+}
+
+.cooking_lms .course_item[data-course-lavel]::before {
+  content: attr(data-course-lavel);
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: var(--frontend-white, #ffffff);
+  color: var(--frontend-primary, #f28054);
+  font-size: 14px;
+  line-height: 1.28571;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .course_item[data-course-lavel]::before {
+    top: 10px;
+    left: 10px;
+  }
+}
+
+html[dir="rtl"] .cooking_lms .course_item[data-course-lavel]::before {
+  right: 15px;
+  left: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  html[dir="rtl"] .cooking_lms .course_item[data-course-lavel]::before {
+    right: 10px;
+    left: auto;
+  }
+}
+
+.cooking_lms .course_item[data-course-status]::before {
+  content: attr(data-course-status);
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: var(--frontend-white, #ffffff);
+  color: var(--frontend-primary, #f28054);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.28571;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+html[dir="rtl"] .cooking_lms .course_item[data-course-status]::before {
+  left: auto;
+  right: 15px;
+}
+
+.cooking_lms .course_item_inner {
+  margin-top: 30px;
+  overflow: hidden;
+  --lms-course-sp: 20px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .course_item_inner {
+    --lms-course-sp: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .course_item_inner {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .cooking_lms .course_item_inner {
+    --lms-course-sp: 15px;
+  }
+}
+
+.cooking_lms .course_item_inner_img {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 57.58%;
+  overflow: hidden;
+  background-color: rgba(var(--frontend-primary, #f28054), 0.3);
+  border-radius: 10px 10px 0px 0px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .cooking_lms .course_item_inner_img {
+    height: 180px;
+  }
+}
+
+.cooking_lms .course_item_inner_img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: all 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.cooking_lms .course_item_inner_content {
+  padding: var(--lms-course-sp);
+  border: 1px solid var(--frontend-border, #E3E6EF);
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.cooking_lms .course_item_inner_content > span {
+  display: block;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.cooking_lms .course_item_inner_content_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--lms-course-sp);
+}
+
+.cooking_lms .course_item_inner_content_info .rating {
+  display: flex;
+  align-items: center;
+}
+
+.cooking_lms .course_item_inner_content_info .rating span {
+  color: var(--frontend-primary-2, #4D3222);
+}
+
+.cooking_lms .course_item_inner_content_info .rating span i {
+  margin-left: 8px;
+  color: var(--frontend-yellow, #FFC107);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .course_item_inner_content_info .rating span i {
+    margin-left: 4px;
+  }
+}
+
+html[dir="rtl"] .cooking_lms .course_item_inner_content_info .rating span i {
+  margin-right: 8px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  html[dir="rtl"] .cooking_lms .course_item_inner_content_info .rating span i {
+    margin-right: 4px;
+  }
+}
+
+.cooking_lms .course_item_inner_content_info .rating > * {
+  border: 1px solid var(--frontend-border, #E3E6EF);
+  font-size: 14px;
+  margin: 0 !important;
+  padding: 8px 11px;
+  line-height: 0;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .course_item_inner_content_info .rating > * {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+
+.cooking_lms .course_item_inner_content_info .rating > * i {
+  font-size: 16px;
+}
+
+.cooking_lms .course_item_inner_content_info .rating a {
+  color: var(--frontend-primary, #f28054);
+  padding-left: 7px;
+  padding-right: 7px;
+  border-left: 0;
+}
+
+html[dir="rtl"] .cooking_lms .course_item_inner_content_info .rating a {
+  border-right: 0;
+}
+
+.cooking_lms .course_item_inner_content_info .rating a:hover {
+  color: var(--frontend-primary-2, #4D3222);
+}
+
+.cooking_lms .course_item_inner_content_info .price {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .course_item_inner_content_info .price {
+    text-align: right;
+  }
+}
+
+.cooking_lms .course_item_inner_content_info .price span {
+  margin-left: 10px;
+  color: var(--frontend-primary, #f28054);
+}
+
+html[dir="rtl"] .cooking_lms .course_item_inner_content_info .price span {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.cooking_lms .course_item_inner_content_info .price span.prev_prise {
+  color: #687083;
+  text-decoration: line-through;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .course_item_inner_content_info .price span {
+    margin-left: 5px;
+  }
+}
+
+.cooking_lms .course_item_inner_content_footer {
+  border-top: 1px solid var(--frontend-border, #E3E6EF);
+  padding-top: var(--lms-course-sp);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.cooking_lms .course_item_inner_content_footer i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .course_item_inner_content_footer i {
+    margin-right: 5px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .course_item_inner_content_footer p {
+    white-space: nowrap;
+  }
+}
+
+.cooking_lms .course_item_inner_title {
+  display: block;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--frontend-primary-2, #4D3222);
+  margin-bottom: var(--lms-course-sp);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .course_item_inner_title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .course_item_inner_title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cooking_lms .course_item_inner_title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .course_item_inner_title {
+    margin-bottom: 15px;
+  }
+}

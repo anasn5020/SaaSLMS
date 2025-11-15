@@ -1,0 +1,13 @@
+{
+    "name": "VdoCipher",
+    "alias": "vdocipher",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\VdoCipher\\Providers\\VdoCipherServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

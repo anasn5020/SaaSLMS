@@ -1,0 +1,22 @@
+<?php
+return [
+"Communication" => "Kommunikation",
+"Questions & Answer" => "Fragen & Antworten",
+"Private Messages" => "Private Nachrichten",
+"Message List" => "Nachrichtenliste",
+"Write your message" => "Schreiben Sie Ihre Nachricht",
+"Search content here" => "Inhalt hier durchsuchen",
+"Short Code" => "Kurzer Code",
+"Field Name" => "Feldname",
+"Subscriptions" => "Subskriptionen",
+"Send Message" => "Nachricht senden",
+"Send Email" => "E-Mail senden",
+"Compose Message" => "Nachricht erstellen",
+"Your referral link" => "Ihr Verweislink",
+"Copy Link" => "Link kopieren",
+"Share the referral link with your friends." => "Teilen Sie die Verweisverbindung mit Ihren Freunden.",
+"Your referral list" => "Ihre Empfehlungsliste",
+"Let's say Hi" => "Lets sagen, Hi.",
+"News Category" => "Nachrichtenkategorie",
+"News List" => "Nachrichtenliste",
+];

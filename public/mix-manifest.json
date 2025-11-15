@@ -1,0 +1,15 @@
+{
+    "/frontend/infixlmstheme/js/app.js": "/frontend/infixlmstheme/js/app.js",
+    "/frontend/infixlmstheme/js/common.js": "/frontend/infixlmstheme/js/common.js",
+    "/js/app.js": "/js/app.js",
+    "/js/common.js": "/js/common.js",
+    "/backend/css/app.css": "/backend/css/app.css",
+    "/backend/css/backend_style.css": "/backend/css/backend_style.css",
+    "/backend/css/backend_style_rtl.css": "/backend/css/backend_style_rtl.css",
+    "/frontend/infixlmstheme/css/app.css": "/frontend/infixlmstheme/css/app.css",
+    "/frontend/infixlmstheme/css/frontend_style.css": "/frontend/infixlmstheme/css/frontend_style.css",
+    "/frontend/infixlmstheme/css/frontend_style_rtl.css": "/frontend/infixlmstheme/css/frontend_style_rtl.css",
+    "/frontend/infixlmstheme/css/package.css": "/frontend/infixlmstheme/css/package.css",
+    "/modules/inappliveclass/script.js": "/modules/inappliveclass/script.js",
+    "/backend/js/plugin.js": "/backend/js/plugin.js"
+}

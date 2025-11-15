@@ -1,0 +1,19 @@
+<svg width="12" height="15" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.09592 11.2785C1.25851 12.7129 2.47157 13.8315 3.91433 13.8827C4.64619 13.9086 5.39767 13.9221 6.20761 13.9221C7.01754 13.9221 7.76902 13.9086 8.50088 13.8827C9.94363 13.8315 11.1567 12.7129 11.3193 11.2785C11.3759 10.7785 11.4152 10.2705 11.4152 9.75593C11.4152 9.24137 11.3759 8.73337 11.3193 8.23338C11.1567 6.79889 9.94363 5.68043 8.50088 5.62923C7.76902 5.60326 7.01754 5.58984 6.20761 5.58984C5.39767 5.58984 4.64619 5.60326 3.91433 5.62923C2.47157 5.68043 1.25851 6.79889 1.09592 8.23338C1.03923 8.73337 1 9.24137 1 9.75593C1 10.2705 1.03923 10.7785 1.09592 11.2785Z" fill="white" stroke="url(#paint0_linear_0_1)"/>
+    <path d="M8.26744 2.27798C7.72053 1.73108 6.97877 1.42383 6.20533 1.42383C5.43188 1.42383 4.69013 1.73108 4.14322 2.27798C3.59631 2.82488 3.28906 3.56665 3.28906 4.34009V5.58992" stroke="url(#paint1_linear_0_1)" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6.21094 9.25586V10.2557" stroke="url(#paint2_linear_0_1)" stroke-linecap="round" stroke-linejoin="round"/>
+    <defs>
+        <linearGradient id="paint0_linear_0_1" x1="1.94255" y1="11.1961" x2="10.6722" y2="8.70796" gradientUnits="userSpaceOnUse">
+            <stop stop-color="var(--system_primery_gredient1, #660AFB)"/>
+            <stop offset="1" stop-color="var(--system_primery_gredient2, #BF37FF)"/>
+        </linearGradient>
+        <linearGradient id="paint1_linear_0_1" x1="3.73959" y1="4.22694" x2="7.93944" y2="3.08258" gradientUnits="userSpaceOnUse">
+            <stop stop-color="var(--system_primery_gredient1, #660AFB)"/>
+            <stop offset="1" stop-color="var(--system_primery_gredient2, #BF37FF)"/>
+        </linearGradient>
+        <linearGradient id="paint2_linear_0_1" x1="6.30144" y1="9.92856" x2="7.16288" y2="9.7321" gradientUnits="userSpaceOnUse">
+            <stop stop-color="var(--system_primery_gredient1, #660AFB)"/>
+            <stop offset="1" stop-color="var(--system_primery_gredient2, #BF37FF)"/>
+        </linearGradient>
+    </defs>
+</svg>

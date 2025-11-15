@@ -1,0 +1,284 @@
+/*==== PRICE PAGE CSS ====*/
+.university .price_item {
+  margin-top: 30px;
+  border: 1px solid var(--frontend-border, #E3E6EF);
+  box-shadow: 20px 10px 20px rgba(var(--frontend-black, #000000), 0.01);
+  border-radius: 10px;
+  padding: 40px;
+  padding-top: 35px;
+  background-color: var(--frontend-white, #ffffff);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .price_item {
+    padding: 30px;
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .price_item {
+    padding: 20px 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .price_item {
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .price_item {
+    margin-top: 25px;
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .university .price_item {
+    padding: 20px;
+  }
+}
+
+.university .price_item h3 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .price_item h3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .price_item h3 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .price_item h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .price_item h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .university .price_item h3 {
+    font-size: 20px;
+  }
+}
+
+.university .price_item h3 span {
+  font-size: 16px;
+  color: var(--frontend-text-color, #687083);
+  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+.university .price_item_head p {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .price_item_head p {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .price_item_head p {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .price_item_head p {
+    margin-bottom: 10px;
+  }
+}
+
+.university .price_item_head a {
+  display: block;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+
+.university .price_item_body {
+  margin-top: 35px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .price_item_body {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .price_item_body {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .price_item_body {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .price_item_body {
+    margin-top: 15px;
+  }
+}
+
+.university .price_item_body h3 {
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .price_item_body h3 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .price_item_body h3 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .price_item_body h3 {
+    margin-bottom: 10px;
+  }
+}
+
+.university .price_item_body p {
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .university .price_item_body p {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .price_item_body p {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .price_item_body p {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .price_item_body p {
+    margin-bottom: 10px;
+  }
+}
+
+.university .price_item_body p span {
+  font-weight: 700;
+  color: var(--frontend-primary-2, #00124E);
+  display: block;
+}
+
+.university .price_item_body ul {
+  padding-left: 20px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .price_item_body ul {
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .price_item_body ul {
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .price_item_body ul {
+    padding-left: 10px;
+  }
+}
+
+html[dir=rtl] .university .price_item_body ul {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html[dir=rtl] .university .price_item_body ul {
+    padding-right: 15px;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html[dir=rtl] .university .price_item_body ul {
+    padding-right: 15px;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html[dir=rtl] .university .price_item_body ul {
+    padding-right: 10px;
+    padding-left: 0;
+  }
+}
+
+.university .price_item_body ul li {
+  display: flex;
+  color: var(--frontend-primary-2, #00124E);
+}
+
+.university .price_item_body ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .university .price_item_body ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .university .price_item_body ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .university .price_item_body ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.university .price_item_body ul li i {
+  font-size: 6px;
+  line-height: 26px;
+  margin-right: 10px;
+}
+
+html[dir=rtl] .university .price_item_body ul li i {
+  margin-right: 0;
+  margin-left: 10px;
+}

@@ -1,0 +1,22 @@
+<?php
+return [
+"Members" => "الأعضاء :",
+"Registered Members" => "العناصر التي تم تسجيلها",
+"Last Submission" => "آخر احالة",
+"Enabled" => "متاح",
+"Disabled" => "غير متاح",
+"Enable" => "اتاحة",
+"Disable" => "الغاء اتاحة",
+"View" => "مشاهدة",
+"Name" => "الاسم",
+"Email" => "البريد الالكتروني",
+"Phone" => "التليفون",
+"Registration Status" => "حالة التسجيل",
+"Submission Date" => "تاريخ الاحالة",
+"Export" => "ارسال",
+"Export List" => "كشف التصدير",
+"Send Notification" => "ارسال اعلام",
+"Choose which columns you see" => "حدد الأعمدة التي تشاهدها",
+"Cancel" => "الغاء",
+"Waitlist" => "قائمة الانتظار",
+];

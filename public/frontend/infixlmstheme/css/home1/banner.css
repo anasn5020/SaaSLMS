@@ -1,0 +1,268 @@
+/*==== BANNER AREA CSS ====*/
+.business_instructor .banner_area {
+  display: flex;
+  align-items: center;
+  height: 880px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .business_instructor .banner_area {
+    height: 800px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .business_instructor .banner_area {
+    height: 700px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .banner_area {
+    height: 620px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .banner_area {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .banner_area {
+    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .business_instructor .banner_area {
+    background-position: left;
+    height: 450px;
+  }
+  html[dir="rtl"] .business_instructor .banner_area {
+    background-position: right;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .banner_area_text {
+    padding-top: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .banner_area_text {
+    padding-top: 50px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .banner_area_text {
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html[dir="rtl"] .business_instructor .banner_area_text {
+    padding-left: 30px;
+    padding-right: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html[dir="rtl"] .business_instructor .banner_area_text {
+    padding-left: 30px;
+    padding-right: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html[dir="rtl"] .business_instructor .banner_area_text {
+    padding-top: 60px;
+  }
+}
+
+.business_instructor .banner_area_text h1 {
+  font-size: 50px;
+  line-height: 1.4;
+  font-weight: 900;
+  font-weight: 900;
+  margin-bottom: 0px;
+  color: var(--frontend-white, #ffffff);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .business_instructor .banner_area_text h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .banner_area_text h1 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .banner_area_text h1 {
+    font-size: 31px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .banner_area_text h1 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .business_instructor .banner_area_text h1 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .business_instructor .banner_area_text h1 {
+    font-size: 24px;
+  }
+}
+
+.business_instructor .banner_area_text p {
+  margin-top: 15px;
+  font-weight: 500;
+  padding-right: 100px;
+  color: var(--frontend-white, #ffffff);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .banner_area_text p {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .business_instructor .banner_area_text p {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .business_instructor .banner_area_text p {
+    font-size: 14px;
+  }
+}
+
+html[dir="rtl"] .business_instructor .banner_area_text p {
+  padding-left: 100px;
+  padding-right: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html[dir="rtl"] .business_instructor .banner_area_text p {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  html[dir="rtl"] .business_instructor .banner_area_text p {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  html[dir="rtl"] .business_instructor .banner_area_text p {
+    font-size: 14px;
+  }
+}
+
+.business_instructor .banner_area_text .input-control {
+  margin-top: var(--lms-margin-50);
+  width: 80%;
+}
+
+.business_instructor .banner_area_text .input-control-input {
+  border-radius: 4px;
+}
+
+.business_instructor .banner_area_text .input-control-input[type=submit], .business_instructor .banner_area_text .input-control-input[type=button] {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background-color: transparent !important;
+  border: none;
+  font-size: 20px;
+  color: var(--frontend-primary, #525FE1);
+  width: auto;
+}
+
+html[dir="rtl"] .business_instructor .banner_area_text .input-control-input[type=submit], html[dir="rtl"] .business_instructor .banner_area_text .input-control-input[type=button] {
+  right: auto;
+  left: 0px;
+}
+
+.business_instructor .banner_area_text .input-control-input[type=submit]:hover, .business_instructor .banner_area_text .input-control-input[type=button]:hover {
+  color: var(--frontend-primary-2, #231F40);
+}
+
+.business_instructor .banner_area_text .input-control-input[type=submit] i, .business_instructor .banner_area_text .input-control-input[type=button] i {
+  margin-right: 0px;
+}
+
+html[dir="rtl"] .business_instructor .banner_area_text .input-control-input[type=submit] i, html[dir="rtl"] .business_instructor .banner_area_text .input-control-input[type=button] i {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.business_instructor .banner_area_text_actions {
+  margin-top: var(--lms-margin-50);
+  display: flex;
+  align-items: center;
+}
+
+.business_instructor .banner_area_text_actions a {
+  min-width: 200px;
+  padding: 20px 20px;
+  flex: 0 0 auto;
+  background-color: var(--frontend-white, #ffffff);
+  color: var(--frontend-primary, #525FE1);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .banner_area_text_actions a {
+    min-width: 170px;
+    padding: 18px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .banner_area_text_actions a {
+    min-width: max-content;
+    padding: 15px 20px;
+  }
+}
+
+.business_instructor .banner_area_text_actions a:hover {
+  background-color: var(--frontend-primary, #525FE1);
+  color: var(--frontend-white, #ffffff);
+}
+
+.business_instructor .banner_area_text_actions a:not(:first-child) {
+  margin-left: 10px;
+}
+
+html[dir="rtl"] .business_instructor .banner_area_text_actions a:not(:first-child) {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.business_instructor .banner_area_text_actions a img {
+  width: 120px !important;
+  height: 100%;
+  object-fit: cover;
+}

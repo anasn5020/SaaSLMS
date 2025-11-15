@@ -1,0 +1,13 @@
+{
+    "name": "Midtrans",
+    "alias": "midtrans",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Midtrans\\Providers\\MidtransServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

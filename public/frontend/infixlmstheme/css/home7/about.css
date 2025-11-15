@@ -1,0 +1,212 @@
+.digital_marketing .about-us-img {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.digital_marketing .about-us-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.digital_marketing .about-us-content > span {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .about-us-content > span {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .about-us-content > span {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .about-us-content > span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .about-us-content > span {
+    margin-bottom: 10px;
+  }
+}
+
+.digital_marketing .about-us-content h3 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .about-us-content h3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .about-us-content h3 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .about-us-content h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .about-us-content h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .about-us-content h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .about-us-content h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .about-us-content h3 {
+    margin-bottom: 10px;
+  }
+}
+
+.digital_marketing .about-us-content p {
+  font-weight: 400;
+  line-height: 1.875;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .about-us-content p {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .about-us-content p {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .about-us-content p {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .about-us-content p {
+    margin-bottom: 20px;
+  }
+}
+
+.digital_marketing .about-us-content ul {
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .about-us-content ul {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .about-us-content ul {
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .about-us-content ul {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .about-us-content ul {
+    margin-bottom: 25px;
+  }
+}
+
+.digital_marketing .about-us-content ul li {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.digital_marketing .about-us-content ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .about-us-content ul li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .digital_marketing .about-us-content ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.digital_marketing .about-us-content ul li span {
+  --lms-check-icon: 25px;
+  width: var(--lms-check-icon);
+  height: var(--lms-check-icon);
+  line-height: var(--lms-check-icon);
+  border-radius: 100%;
+  background-color: var(--frontend-extra-light-white, #f9f9fc);
+  margin-right: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+html[dir="rtl"] .digital_marketing .about-us-content ul li span {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.digital_marketing .about-us-content .boxed_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .about-us-content .boxed_btn {
+    width: 180px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .about-us-content .boxed_btn {
+    width: max-content;
+    height: auto;
+    display: inline-block !important;
+    padding: 12px 25px;
+  }
+}

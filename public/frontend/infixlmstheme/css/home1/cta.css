@@ -1,0 +1,280 @@
+/*==== CALL TO ACTION AREA CSS ====*/
+@media only screen and (max-width: 767px) {
+  .business_instructor .cta_area .col-md-6:last-child {
+    margin-top: 20px;
+  }
+}
+
+.business_instructor .cta_area_card {
+  background-color: var(--frontend-primary, #525FE1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 60px;
+  padding-right: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .business_instructor .cta_area_card {
+    padding: 50px;
+    padding-right: 40%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .business_instructor .cta_area_card {
+    padding: 40px;
+    padding-right: 40%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .cta_area_card {
+    padding: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .cta_area_card {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .cta_area_card {
+    padding: 25px 50px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .business_instructor .cta_area_card {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  html[dir="rtl"] .business_instructor .cta_area_card {
+    padding-left: 40%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  html[dir="rtl"] .business_instructor .cta_area_card {
+    padding-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html[dir="rtl"] .business_instructor .cta_area_card {
+    padding: 50px 25px;
+  }
+}
+
+.business_instructor .cta_area_card.bg-1 {
+  background-image: url(../img/shapes/cta-bg-1.png);
+}
+
+.business_instructor .cta_area_card.bg-2 {
+  background-image: url(../img/shapes/cta-bg-2.png);
+}
+
+.business_instructor .cta_area_card.bg-2::before {
+  right: -50px;
+  top: auto;
+  bottom: -5px;
+  background-position: bottom right;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .business_instructor .cta_area_card.bg-2::before {
+    right: -30px;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .cta_area_card.bg-2::before {
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .business_instructor .cta_area_card.bg-2::before {
+    right: 0;
+    bottom: 0;
+  }
+}
+
+html[dir="rtl"] .business_instructor .cta_area_card.bg-2::before {
+  left: -50px;
+  right: auto;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  html[dir="rtl"] .business_instructor .cta_area_card.bg-2::before {
+    left: -30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html[dir="rtl"] .business_instructor .cta_area_card.bg-2::before {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  html[dir="rtl"] .business_instructor .cta_area_card.bg-2::before {
+    left: 0;
+  }
+}
+
+.business_instructor .cta_area_card::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: var(--shape);
+  background-size: auto;
+  background-position: center right;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .business_instructor .cta_area_card::before {
+    right: 10px;
+    width: 40%;
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .cta_area_card::before {
+    width: 40%;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .business_instructor .cta_area_card::before {
+    width: 50%;
+    background-size: contain;
+  }
+}
+
+html[dir="rtl"] .business_instructor .cta_area_card::before {
+  left: 40px;
+  right: auto;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  html[dir="rtl"] .business_instructor .cta_area_card::before {
+    left: 10px;
+    right: auto;
+  }
+}
+
+.business_instructor .cta_area_card::after {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(var(--frontend-black, #000000), 0.35);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+html[dir="rtl"] .business_instructor .cta_area_card::after {
+  left: auto;
+  right: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .cta_area_card::after {
+    content: "";
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .business_instructor .cta_area_card::after {
+    content: "";
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .cta_area_card::after {
+    background-color: rgba(var(--frontend-black, #000000), 0.45);
+  }
+}
+
+.business_instructor .cta_area_card span {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--frontend-white, #ffffff);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .cta_area_card span {
+    font-size: 12px;
+  }
+}
+
+.business_instructor .cta_area_card h4 {
+  font-size: 24px;
+  line-height: 1.41667;
+  margin-bottom: 30px;
+  color: var(--frontend-white, #ffffff);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .cta_area_card h4 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .cta_area_card h4 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .cta_area_card h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .business_instructor .cta_area_card h4 {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .business_instructor .cta_area_card h4 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .business_instructor .cta_area_card h4 {
+    margin-bottom: 15px;
+  }
+}
+
+.business_instructor .cta_area_card a {
+  background-color: var(--frontend-white, #ffffff);
+  color: var(--frontend-primary, #525FE1);
+  text-transform: uppercase;
+}

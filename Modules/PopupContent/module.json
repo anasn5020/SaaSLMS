@@ -1,0 +1,13 @@
+{
+    "name": "PopupContent",
+    "alias": "popupcontent",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PopupContent\\Providers\\PopupContentServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

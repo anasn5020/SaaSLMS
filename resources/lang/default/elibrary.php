@@ -1,0 +1,23 @@
+<?php
+return [
+    'E-Library' => 'E-Library',
+    'Ebook' => 'Ebook',
+    'Author Name' => 'Author Name',
+    'Publisher Name' => 'Publisher Name',
+    'Ebook List' => 'Ebook List',
+    'Add New EBook' => 'Add New EBook',
+    'Update EBook' => 'Update EBook',
+    'Select Access Type' => 'Select Access Type',
+    'All Student' => 'All Student',
+    'access_type' => 'required',
+    'Access' => 'Access',
+    'Access Type' => 'Access Type',
+    'Ebook Created Successfully' => 'Ebook Created Successfully',
+    'Ebook Delete Successfully' => 'Ebook Delete Successfully',
+    'Ebook Update Failed' => 'Ebook Update Failed',
+    'Ebook Update Successfully' => 'Ebook Update Successfully',
+    'Access Type Of Student' => 'Access Type Of Student',
+    'You are not eligible' => 'You are not eligible',
+    'Book View' => 'Book View',
+    'Add Ebook' => 'Add Ebook',
+];

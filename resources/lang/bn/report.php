@@ -1,0 +1,23 @@
+<?php
+return [
+"Admin Course Revenue List" => "অ্যাডমিন কোর্স রাজস্ব তালিকা",
+"Report" => "প্রতিবেদন",
+"Admin Revenue" => "অ্যাডমিন রেভেনিউ",
+"With Discount" => "ডিসকাউন্ট দিয়ে",
+"Without Discount" => "ডিসকাউন্ট ছাড়া",
+"Start Date" => "শুরু তারিখ",
+"End Date" => "শেষ তারিখ",
+"Enrolled Student" => "ছাত্র-ছাত্রী",
+"Price" => "মূল্য",
+"Revenue" => "রাজস্ব",
+"Discount" => "ডিসকাউন্ট",
+"Enrolled Date" => "এন্টেলকৃত তারিখ",
+"Purchase ID" => "আই. ডি.",
+"Scorm Report" => "স্কোরম রিপোর্ট",
+"XAPI Report" => "XAPI প্রতিবেদন",
+"H5P" => "H5P",
+"H5P Info" => "H5P তথ্যName",
+"Score" => "স্কোর",
+"Total Score" => "মোট স্কোর",
+"H5P Report" => "H5P প্রতিবেদন",
+];

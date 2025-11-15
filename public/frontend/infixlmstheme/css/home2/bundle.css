@@ -1,0 +1,271 @@
+/*==== BUNDLE CSS ====*/
+.cooking_lms .bundle_slider {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .bundle_slider {
+    margin-top: 30px;
+  }
+}
+
+.cooking_lms .bundle_slider .bundle_item {
+  margin-top: 0px;
+}
+
+.cooking_lms .bundle_item {
+  margin-top: 30px;
+  padding: 30px;
+  padding-bottom: 40px;
+  border: 1px solid var(--frontend-border, #E3E6EF);
+  border-radius: 10px;
+  transition: all .4s ease-in-out;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1580px) {
+  .cooking_lms .bundle_item {
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .bundle_item {
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .bundle_item {
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .bundle_item {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .bundle_item {
+    padding: 25px;
+  }
+}
+
+.cooking_lms .bundle_item_wrapper {
+  height: 100%;
+}
+
+.cooking_lms .bundle_item_wrapper_head {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--frontend-border, #E3E6EF);
+  --lms-bundle-sp: 10px;
+  margin-left: calc(var(--lms-bundle-sp) * -1);
+  margin-right: calc(var(--lms-bundle-sp) * -1);
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .bundle_item_wrapper_head {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    --lms-bundle-sp: 7px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .bundle_item_wrapper_head {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .bundle_item_wrapper_head {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .bundle_item_wrapper_head {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.cooking_lms .bundle_item_wrapper_head > div {
+  flex: 0 0 auto;
+  max-width: 100%;
+  padding-left: calc(var(--lms-bundle-sp) * 1);
+  padding-right: calc(var(--lms-bundle-sp) * 1);
+}
+
+.cooking_lms .bundle_item_wrapper_head #icon {
+  height: 60px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .bundle_item_wrapper_head #icon {
+    height: 50px;
+  }
+}
+
+.cooking_lms .bundle_item_wrapper_head #icon img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.cooking_lms .bundle_item_wrapper_head h4 {
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .bundle_item_wrapper_head h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .bundle_item_wrapper_head h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cooking_lms .bundle_item_wrapper_head h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .bundle_item_wrapper_head h4 {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .bundle_item_wrapper_head h4 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .bundle_item_wrapper_head p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .bundle_item_wrapper_head p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .bundle_item_wrapper_head p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .bundle_item_wrapper_head p {
+    font-size: 14px;
+  }
+}
+
+.cooking_lms .bundle_item_wrapper_body ul {
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .bundle_item_wrapper_body ul {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .bundle_item_wrapper_body ul {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .bundle_item_wrapper_body ul {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .bundle_item_wrapper_body ul {
+    margin-bottom: 20px;
+  }
+}
+
+.cooking_lms .bundle_item_wrapper_body ul li {
+  display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .bundle_item_wrapper_body ul li {
+    font-size: 14px;
+  }
+}
+
+.cooking_lms .bundle_item_wrapper_body ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .bundle_item_wrapper_body ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .bundle_item_wrapper_body ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .bundle_item_wrapper_body ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.cooking_lms .bundle_item_wrapper_body ul li i {
+  font-size: 18px;
+  margin-right: 10px;
+  color: var(--frontend-primary, #f28054);
+  line-height: 26px;
+}
+
+html[dir="rtl"] .cooking_lms .bundle_item_wrapper_body ul li i {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .bundle_item_wrapper_body ul li i {
+    font-size: 16px;
+  }
+}
+
+.cooking_lms .bundle_item_wrapper_body a {
+  display: block;
+  line-height: 18px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .bundle_item_wrapper_body a {
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "NotificationSetup": {
+    	  "item_id": "30626608",
+        "migration": [
+            "2021_10_06_102520_create_role_email_templates_table.php",
+            "2021_10_06_130001_create_user_notification_setups_table.php",
+            "2021_10_06_165425_AddBrowserMessageColumnToEmailTemaplteTable.php"
+        ],
+        "names": [
+            "role_email_templates",
+            "user_notification_setups"
+        ],
+        "versions": [
+            "1.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "This is Notification Setup module for manage email and browser notifications. Thanks for using."
+        ]
+    }
+}

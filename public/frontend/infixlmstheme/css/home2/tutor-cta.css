@@ -1,0 +1,139 @@
+.cooking_lms .tutor_cta_inner {
+  border-radius: 10px;
+  background-color: var(--frontend-primary, #f28054);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  --lms-tutor-finder-home: 50px;
+  padding: var(--lms-tutor-finder-home) 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .tutor_cta_inner {
+    padding: 30px !important;
+  }
+}
+
+.cooking_lms .tutor_cta_inner::before {
+  content: "";
+  width: 25%;
+  height: 85%;
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  z-index: 1;
+  background-image: var(--bg-shape);
+  background-size: contain;
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+html[dir="rtl"] .cooking_lms .tutor_cta_inner::before {
+  right: 60px;
+  left: auto;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .tutor_cta_inner::before {
+    width: 25%;
+    bottom: -18px;
+    left: 10px;
+  }
+  html[dir="rtl"] .cooking_lms .tutor_cta_inner::before {
+    right: 10px;
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cooking_lms .tutor_cta_inner::before {
+    display: none;
+  }
+}
+
+.cooking_lms .tutor_cta_inner span {
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--frontend-white, #ffffff);
+  display: block;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .tutor_cta_inner span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .tutor_cta_inner span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cooking_lms .tutor_cta_inner span {
+    font-weight: 500;
+  }
+}
+
+.cooking_lms .tutor_cta_inner h3 {
+  font-size: 30px;
+  line-height: 1.33333;
+  margin-bottom: 0px;
+  color: var(--frontend-white, #ffffff);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cooking_lms .tutor_cta_inner h3 {
+    margin-bottom: 20px;
+  }
+}
+
+.cooking_lms .tutor_cta_inner a {
+  text-transform: uppercase;
+  background-color: var(--frontend-white, #ffffff);
+  color: var(--frontend-primary, #f28054);
+}
+
+.cooking_lms .tutor_cta_inner a:hover {
+  background-color: var(--frontend-primary-2, #4D3222);
+}

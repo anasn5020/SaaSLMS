@@ -1,0 +1,13 @@
+{
+    "name": "AoraPageBuilder",
+    "alias": "aorapagebuilder",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\AoraPageBuilder\\Providers\\AoraPageBuilderServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

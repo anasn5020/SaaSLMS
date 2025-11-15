@@ -1,0 +1,22 @@
+<?php
+return [
+"Communication" => "Liên lạc",
+"Questions & Answer" => "Câu hỏi & Trả lời",
+"Private Messages" => "Thông báo riêng",
+"Message List" => "Danh sách báo",
+"Write your message" => "Viết thông báo của bạn",
+"Search content here" => "Tìm nội dung ở đây",
+"Short Code" => "Mã ngắn",
+"Field Name" => "Tên trường",
+"Subscriptions" => "Đăng ký",
+"Send Message" => "Gửi thông điệp",
+"Send Email" => "Gửi email",
+"Compose Message" => "Soạn tin nhắn",
+"Your referral link" => "Liên kết giới thiệu của bạn",
+"Copy Link" => "Sao chép",
+"Share the referral link with your friends." => "Chia sẻ liên kết giới thiệu với bạn bè.",
+"Your referral list" => "Danh sách giới thiệu của bạn",
+"Let's say Hi" => "Xin chào.",
+"News Category" => "Danh mục tin",
+"News List" => "Danh sách tin",
+];

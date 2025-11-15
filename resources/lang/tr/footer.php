@@ -1,0 +1,21 @@
+<?php
+return [
+"Footer" => "Altbilgi",
+"Footer Settings" => "Altbilgi Ayarları",
+"Dashboard" => "Gösterge Panosu",
+"Frontend CMS" => "Ön Uç CMS",
+"Copyright Text" => "Telif Hakkı Metni",
+"About Text" => "Metin Hakkında",
+"Section name" => "Bölüm adı",
+"About Description" => "Hakkında Açıklama",
+"Add New Page" => "Yeni Sayfa Ekle",
+"Cancel" => "İptal",
+"Widget" => "Pencere Aracı",
+"Page Name" => "Sayfa Adı",
+"Edit Link" => "Bağlantıyı Düzenle",
+"Widget Title" => "Pencere Aracı Başlığı",
+"Add Link" => "Bağlantı Ekle",
+"Select Page" => "Sayfa Seç",
+"Are you sure" => "Emin misin?",
+"Custom Link" => "Özel Bağlantı",
+];

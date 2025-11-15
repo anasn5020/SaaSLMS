@@ -1,0 +1,21 @@
+<?php
+return [
+"Members" => "Thành viên",
+"Registered Members" => "Các thành viên",
+"Last Submission" => "Gửi lần cuối",
+"Enabled" => "Ðã bật",
+"Disabled" => "Ðã tắt",
+"Enable" => "Kích hoạt",
+"Disable" => "Tắt",
+"View" => "Xem thử",
+"Name" => "Tên",
+"Email" => "Email",
+"Phone" => "Điện thoại",
+"Registration Status" => "Trạng Thái Đăng",
+"Submission Date" => "Ngày gửi",
+"Export" => "Xuất",
+"Export List" => "Danh sách xuất",
+"Send Notification" => "Gửi thông báo",
+"Choose which columns you see" => "Chọn những cột bạn thấy",
+"Cancel" => "Hủy",
+];

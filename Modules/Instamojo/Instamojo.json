@@ -1,0 +1,20 @@
+{
+    "Instamojo": {
+        "item_id": "30626608",
+        "migration": [
+            "2021_04_15_102201_AddInstamojoPaymentMethod.php"
+        ],
+        "names": [
+            "Instamojo"
+        ],
+        "versions": [
+            "1.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "Instamojo is one of the top rated payment gateway & eCommerce platform in India. Thanks for using."
+        ]
+    }
+}

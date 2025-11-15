@@ -1,0 +1,537 @@
+.whats_app_popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 310px;
+    align-items: flex-end;
+    z-index: 100 !important;
+}
+
+/* line 7, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_close {
+    background-color: #0dc152;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/* line 19, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_body {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+/* line 23, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_body .whats_app_popup_thumb {
+    flex: 50px 0 0;
+    margin-right: 5px;
+}
+
+/* line 26, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_body .whats_app_popup_thumb img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* line 32, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_body .whats_app_popup_msgs {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+    width: 260px;
+}
+
+/* line 37, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_body .whats_app_popup_msgs .whats_app_popup_head {
+    background-color: #0dc152;
+    border-radius: 10px 10px 0px 0;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+/* line 42, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_body .whats_app_popup_msgs .whats_app_popup_head p {
+    color: #fff !important;
+    font-size: 14px;
+}
+
+/* line 47, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_body .whats_app_popup_msgs .whats_app_popup_text {
+    background-color: #fff;
+    font-size: 14px;
+    padding: 20px 15px;
+    color: #888FBB;
+    line-height: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    grid-gap: 6px;
+}
+
+/* line 62, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_body .whats_app_popup_msgs .whats_app_popup_text img {
+    width: 14px;
+    flex: 14px 0 0;
+    display: inline-block;
+}
+
+/* line 67, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_body .whats_app_popup_msgs .whats_app_popup_text p {
+    margin-bottom: 0;
+}
+
+/* line 73, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_input {
+    background: #fff;
+    width: 260px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+/* line 78, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_input .primary_input_field,
+.whats_app_popup .whats_app_popup_input .input-group-append button {
+    border: 0;
+}
+
+/* line 81, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_input .primary_input_field svg,
+.whats_app_popup .whats_app_popup_input .input-group-append button svg {
+    width: 20px;
+}
+
+/* line 87, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_members {
+    padding: 12px;
+}
+
+/* line 89, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_members .whats_app_popup_input {
+    background: #fff;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #E7EDFB;
+    margin-top: 10px;
+    display: none;
+}
+
+/* line 97, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_members .single_group_member {
+    margin-bottom: 10px;
+}
+
+/* line 101, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_members .single_group_member_inner {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* line 105, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_members .single_group_member_inner .thumb {
+    flex: 50px 0 0;
+    margin-right: 10px;
+    position: relative;
+}
+
+/* line 109, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_members .single_group_member_inner .thumb img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* line 113, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_members .single_group_member_inner .thumb .active_badge {
+    width: 10px;
+    height: 10px;
+    background: #0DC152;
+    border-radius: 50%;
+    position: absolute;
+    right: 1px;
+    bottom: 4px;
+    z-index: 13;
+}
+
+.whats_app_popup .whats_app_members .single_group_member_inner .thumb .inactive_badge {
+    width: 10px;
+    height: 10px;
+    background: #f7bb08;
+    border-radius: 50%;
+    position: absolute;
+    right: 1px;
+    bottom: 4px;
+    z-index: 13;
+}
+
+/* line 125, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_members .single_group_member_inner .group_member_meta span {
+    font-size: 12px;
+    display: block;
+    line-height: 1;
+}
+
+/* line 130, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_members .single_group_member_inner .group_member_meta h4 {
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+/* line 136, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_members .single_group_member_inner .group_member_meta p {
+    font-size: 11px;
+    margin: 0;
+    line-height: 1;
+}
+
+/* line 145, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_form {
+    background: #fff;
+    width: 260px;
+    border-radius: 8px;
+    padding: 0 12px 12px 12px;
+}
+
+/* line 150, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_form .primary_input_coupon {
+    border: 1px solid #E7EDFB;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100px;
+}
+
+/* line 155, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_form .primary_input_coupon textarea {
+    padding: 12px 15px;
+    font-size: 14px;
+    color: #415094;
+    border: 0;
+    width: 1%;
+    flex: 1 1 auto;
+}
+
+/* line 167, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_form .primary_input_field,
+.whats_app_popup .whats_app_popup_form .input-group-append button {
+    border: 0;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    padding: 0;
+    cursor: pointer;
+    z-index: 12;
+}
+
+/* line 176, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whats_app_popup .whats_app_popup_form .primary_input_field svg,
+.whats_app_popup .whats_app_popup_form .input-group-append button svg {
+    width: 20px;
+}
+
+/* line 184, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whatsApp_popup_position {
+    position: fixed;
+    right: 30px;
+    bottom: 160px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 90;
+}
+
+/* line 191, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whatsApp_popup_position.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.primary_input_coupon input {
+    width: 1%;
+    flex: 1 1 auto;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+}
+
+
+/* line 196, G:/laragon/www/CRM_frontend/Admin_crm/public/frontend/scss/_whatsapp_chat.scss */
+.whatsApp_icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #00C348;
+    font-size: 48px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    right: 30px;
+    bottom: 90px;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.whatsApp_icon i {
+    padding: 15px;
+    font-size: 30px;
+}
+
+/*#whatsapp_support_container{*/
+/*    position: fixed;*/
+/*    bottom: 1rem;*/
+/*    right: 1rem;*/
+/*    z-index: 999;*/
+/*}*/
+
+.primary_input_field {
+    border: 1px solid #ECEEF4;
+    font-size: 14px;
+    color: #415094;
+    padding-left: 20px;
+    height: 46px;
+    border-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 100%;
+    padding-right: 15px;
+}
+
+.font_16 {
+    font-size: 16px !important;
+}
+
+.designation_color {
+    color: #9da0a7 !important;
+}
+
+.intro_text {
+    padding: 20px;
+    line-height: 20px;
+}
+
+.whats_app_popup_text {
+    padding-left: 35px !important;
+}
+
+.level_up {
+    width: 56.8125px;
+    height: 56.8125px;
+    top: -21.4062px;
+    left: 31.4219px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.whats_app_popup_input .input-group {
+    display: flex !important;
+}
+
+/* Layout 3 */
+
+.whatsApp_icon_layout3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: red;
+    position: fixed;
+    right: 30px;
+    bottom: 90px;
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+html[dir="rtl"] .whatsApp_icon_layout3 {
+    right: auto;
+    left: 30px;
+}
+
+.whatsApp_icon_layout3 img,
+.whatsApp_icon_layout3 svg{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.whatsApp_popup_layout3 .icon{
+    display: inline-block;
+}
+
+.whatsApp_popup_layout3.active .icon{
+    display: none;
+}
+
+.whatsApp_popup_layout3 .close{
+    display: none;
+}
+
+.whatsApp_popup_layout3.active .close{
+    display: block;
+}
+
+.whats_app_popup_body_link {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    transition: 0.3s all ease-in-out;
+}
+
+.whats_app_popup_body_link:hover{
+    transform: scale(1.05);
+}
+.whats_app_popup_body_link img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.whats_app_popup_body.layout3 {
+    position: fixed;
+    right: 60px;
+    bottom: 120px;
+    z-index: 9999;
+    transition: 0.4s all ease-in-out;
+}
+
+html[dir="rtl"] .whats_app_popup_body {
+    left: 60px;
+    right: auto;
+}
+
+
+.whats_app_popup_body_link.link1 {
+    right: 0px;
+    top: 0%;
+    transform: translateY(0%) scale(0);
+}
+
+html[dir="rtl"] .whats_app_popup_body_link.link1 {
+    left: 0;
+    right: auto;
+}
+
+.whats_app_popup_body_link.link2 {
+    top: 0px;
+    right: 0px;
+    transform: scale(0);
+}
+
+html[dir="rtl"] .whats_app_popup_body_link.link2 {
+    left: 0;
+    right: auto;
+}
+
+.whats_app_popup_body_link.link3 {
+    top: 0px;
+    right: 0px;
+    transform: scale(0);
+}
+
+html[dir="rtl"] .whats_app_popup_body_link.link3 {
+    left: 0;
+    right: auto;
+}
+
+.whats_app_popup_body_link.link4 {
+    top: 0px;
+    right: 0px;
+    transform: scale(0);
+}
+
+html[dir="rtl"] .whats_app_popup_body_link.link4 {
+    left: 0;
+    right: auto;
+}
+
+.whats_app_popup_body_link.link5 {
+    top: 0px;
+    right: 0px;
+    transform: scale(0);
+}
+
+html[dir="rtl"] .whats_app_popup_body_link.link5 {
+    left: 0;
+    right: auto;
+}
+
+
+.whatsApp_popup_layout3.active .whats_app_popup_body_link.link1 {
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%) scale(1);
+}
+
+html[dir="rtl"] .whatsApp_popup_layout3.active .whats_app_popup_body_link.link1 {
+    left: 80px;
+    right: auto;
+}
+
+.whatsApp_popup_layout3.active .whats_app_popup_body_link.link2 {
+    top: -110px;
+    right: 10px;
+    transform: scale(1);
+}
+
+html[dir="rtl"] .whatsApp_popup_layout3.active .whats_app_popup_body_link.link2 {
+    left: 10px;
+    right: auto;
+}
+
+.whatsApp_popup_layout3.active .whats_app_popup_body_link.link3 {
+    bottom: -110px;
+    right: 10px;
+    transform: scale(1);
+    top: auto;
+}
+
+html[dir="rtl"] .whatsApp_popup_layout3.active .whats_app_popup_body_link.link3 {
+    left: 0px;
+    right: auto;
+}
+
+.whatsApp_popup_layout3.active .whats_app_popup_body_link.link4 {
+    top: -90px;
+    right: -45px;
+    transform: scale(1);
+}
+
+html[dir="rtl"] .whatsApp_popup_layout3.active .whats_app_popup_body_link.link4 {
+    left: 20px;
+    right: auto;
+}
+.whatsApp_popup_layout3.active .whats_app_popup_body_link.link5 {
+    bottom: -90px;
+    right: -45px;
+    transform: scale(1);
+    top: auto;
+}
+
+html[dir="rtl"] .whatsApp_popup_layout3.active .whats_app_popup_body_link.link5 {
+    left: 20px;
+    right: auto;
+}

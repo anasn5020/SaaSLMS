@@ -1,0 +1,23 @@
+<?php
+return [
+"Admin Course Revenue List" => "Список налоговых поступлений",
+"Report" => "Доклад",
+"Admin Revenue" => "Налоговая выручка",
+"With Discount" => "Со скидкой",
+"Without Discount" => "Без скидки",
+"Start Date" => "Начальная дата",
+"End Date" => "Конечная дата",
+"Enrolled Student" => "Обучающий студент",
+"Price" => "Цена",
+"Revenue" => "Доход",
+"Discount" => "Скидка",
+"Enrolled Date" => "Дата регистрации",
+"Purchase ID" => "ID покупки",
+"Scorm Report" => "Отчет о скорме",
+"XAPI Report" => "Отчет XAPI",
+"H5P" => "H5P",
+"H5P Info" => "Информация H5P",
+"Score" => "Оценка",
+"Total Score" => "Общая оценка",
+"H5P Report" => "Отчет H5P",
+];

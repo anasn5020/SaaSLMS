@@ -1,0 +1,136 @@
+@media only screen and (max-width: 991px) {
+  .digital_marketing .ins_cta_become {
+    background-color: transparent !important;
+  }
+}
+
+.digital_marketing .ins_cta_inner {
+  padding: 30px 0px;
+}
+
+@media only screen and (min-width: 1581px) {
+  .digital_marketing .ins_cta_inner {
+    padding-right: 50px;
+  }
+  html[dir="rtl"] .digital_marketing .ins_cta_inner {
+    padding-left: 50px;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .ins_cta_inner {
+    text-align: center;
+    padding-bottom: 0px !important;
+  }
+}
+
+.digital_marketing .ins_cta_inner span {
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .ins_cta_inner span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .ins_cta_inner span {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .ins_cta_inner span {
+    margin-bottom: 5px;
+  }
+}
+
+.digital_marketing .ins_cta_inner h3 {
+  font-size: 50px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .digital_marketing .ins_cta_inner h3 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .ins_cta_inner h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .ins_cta_inner h3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .ins_cta_inner h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .ins_cta_inner h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .ins_cta_inner h3 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .ins_cta_inner h3 {
+    margin-bottom: 10px;
+  }
+}
+
+.digital_marketing .ins_cta_inner p {
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .digital_marketing .ins_cta_inner p {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .digital_marketing .ins_cta_inner p {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .ins_cta_inner p {
+    margin-bottom: 25px;
+  }
+}
+
+.digital_marketing .ins_cta_become .ins_cta_inner {
+  padding: var(--section-separate) 0px;
+}
+
+@media only screen and (max-width: 479px) {
+  .digital_marketing .ins_cta_become .ins_cta_inner {
+    padding-top: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .digital_marketing .ins_cta_img {
+    width: 70%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Payeer",
+    "alias": "payeer",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Payeer\\Providers\\PayeerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
