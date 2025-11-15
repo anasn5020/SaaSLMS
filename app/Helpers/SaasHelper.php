@@ -6,6 +6,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Storage;
 use Modules\LmsSaas\Entities\SaasCheckout;
@@ -73,6 +74,7 @@ if (!function_exists('SaasDomain')) {
                 }
             }
         }
+        Log::info("SaasDomain Returns " . $domain);
         return $domain;
     }
 }
