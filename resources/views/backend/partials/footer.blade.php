@@ -44,7 +44,7 @@
     </a>
 @endif
 @livewireScripts
-<script src="{{ asset('public/js/alpine.min.js') }}{{assetVersion()}}"></script>
+<script src="{{ asset('js/alpine.min.js') }}{{assetVersion()}}"></script>
 
 <script>
     window.jsLang = function (key, replace) {
@@ -66,7 +66,7 @@
 </script>
 @if (Settings('real_time_qa_update') == 1)
 
-    <script src="{{asset('public/js/pusher.min.js')}}"></script>
+    <script src="{{asset('js/pusher.min.js')}}"></script>
 
     <script>
         let footerPusher = new Pusher('{{config('broadcasting.connections.pusher.key')}}', {

@@ -4,7 +4,7 @@
             color: #415094;
         }
     </style>
-    <script src="{{asset('public/js/alpine.min.js')}}"></script>
+    <script src="{{asset('js/alpine.min.js')}}"></script>
     <div class="mb-3 mb-md-0 pl-0 pl-md-2"  >
         <div
             x-data="{ open: false }"

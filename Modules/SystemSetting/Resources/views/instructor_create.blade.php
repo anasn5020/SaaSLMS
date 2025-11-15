@@ -1,6 +1,6 @@
 @extends('backend.master')
 @push('styles')
-    <link rel="stylesheet" href="{{asset('public/backend/css/student_list.css')}}"/>
+    <link rel="stylesheet" href="{{asset('backend/css/student_list.css')}}"/>
 @endpush
 @php
     $table_name='users';
@@ -225,6 +225,6 @@
 @endsection
 @push('scripts')
 
-    <script src="{{asset('public/backend/js/student_list.js')}}"></script>
+    <script src="{{asset('backend/js/student_list.js')}}"></script>
 
 @endpush
