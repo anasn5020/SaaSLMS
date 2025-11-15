@@ -29,6 +29,9 @@ class AoraPageBuilderServiceProvider extends ServiceProvider
         $this->registerViews();
 //        $this->registerFactories();
 //        $this->loadMigrationsFrom(module_path($this->moduleName, 'Database/Migrations'));
+        $this->publishes([
+                __DIR__.'/../Resources/assets' => public_path('modules/aorapagebuilder'),
+            ], 'public');
     }
 
     /**

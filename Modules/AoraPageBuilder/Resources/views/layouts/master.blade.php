@@ -24,23 +24,23 @@
     <x-frontend-dynamic-style-color/>
     <x-backend-dynamic-color/>
 
-    <link rel="stylesheet" href="{{ asset('public/backend/css/themify-icons.css') }}{{ assetVersion() }}"/>
+    <link rel="stylesheet" href="{{ asset('backend/css/themify-icons.css') }}{{ assetVersion() }}"/>
 
 
-    <link rel="stylesheet" href="{{ asset('Modules/AoraPageBuilder/Resources/assets/css/fontawesome.css') }}"
+    <link rel="stylesheet" href="{{ asset('Modules/AoraPageBuilder/css/fontawesome.css') }}"
           data-type="aoraeditor-style"/>
 
-    <link rel="stylesheet" href="{{ asset('Modules/AoraPageBuilder/Resources/assets/css/aoraeditor.css') }}"
+    <link rel="stylesheet" href="{{ asset('Modules/AoraPageBuilder/css/aoraeditor.css') }}"
           data-type="aoraeditor-style"/>
-    <link rel="stylesheet" href="{{ asset('Modules/AoraPageBuilder/Resources/assets/css/aoraeditor-components.css') }}"
+    <link rel="stylesheet" href="{{ asset('Modules/AoraPageBuilder/css/aoraeditor-components.css') }}"
           data-type="aoraeditor-style"/>
 
 
     <link rel="stylesheet" type="text/css" data-type="aoraeditor-style"
-          href="{{ asset('Modules/AoraPageBuilder/Resources/assets/css/style.css') }}">
+          href="{{ asset('Modules/AoraPageBuilder/css/style.css') }}">
 
     {{--    <link rel="stylesheet" type="text/css" data-type="aoraeditor-style" --}}
-    {{--          href="{{asset('Modules/AoraPageBuilder/Resources/assets/css')}}/style1.css"> --}}
+    {{--          href="{{asset('Modules/AoraPageBuilder/css')}}/style1.css"> --}}
     @php
         $currentTheme =currentTheme();
 //      $default =[
@@ -54,54 +54,54 @@
     @if ($currentTheme == 'infixlmstheme')
         @if(isRtl())
             <link rel="stylesheet"
-                  href="{{ asset('Modules/AoraPageBuilder/Resources/assets/css/bootstrap.rtl.min.css') }}{{ assetVersion() }}"
+                  href="{{ asset('Modules/AoraPageBuilder/css/bootstrap.rtl.min.css') }}{{ assetVersion() }}"
                   data-type="aoraeditor-style"/>
         @else
             <link rel="stylesheet"
-                  href="{{ asset('Modules/AoraPageBuilder/Resources/assets/css/bootstrap.min.css') }}{{ assetVersion() }}"
+                  href="{{ asset('Modules/AoraPageBuilder/css/bootstrap.min.css') }}{{ assetVersion() }}"
                   data-type="aoraeditor-style"/>
         @endif
         <link rel="stylesheet"
-              href="{{ asset('public/frontend/infixlmstheme') }}/css/fontawesome.css{{ assetVersion() }} "
+              href="{{ asset('frontend/infixlmstheme') }}/css/fontawesome.css{{ assetVersion() }} "
               data-type="aoraeditor-style">
 
-        <link rel="stylesheet" href="{{ asset('public/frontend/infixlmstheme/css/app.css') . assetVersion() }}"
+        <link rel="stylesheet" href="{{ asset('frontend/infixlmstheme/css/app.css') . assetVersion() }}"
               data-type="aoraeditor-style">
 
         @if(isRtl())
             <link rel="stylesheet" type="text/css" data-type="aoraeditor-style"
-                  href="{{ asset('public/frontend/infixlmstheme/css/frontend_style_rtl.css') . assetVersion() }}">
+                  href="{{ asset('frontend/infixlmstheme/css/frontend_style_rtl.css') . assetVersion() }}">
         @else
             <link rel="stylesheet" type="text/css" data-type="aoraeditor-style"
-                  href="{{ asset('public/frontend/infixlmstheme/css/frontend_style.css') . assetVersion() }}">
+                  href="{{ asset('frontend/infixlmstheme/css/frontend_style.css') . assetVersion() }}">
         @endif
 
-        <link rel="stylesheet" href="{{ asset('public/frontend/infixlmstheme/css/mega_menu.css') }}">
+        <link rel="stylesheet" href="{{ asset('frontend/infixlmstheme/css/mega_menu.css') }}">
 
-        {{-- <link rel="stylesheet" href="{{ asset('public/frontend/infixlmstheme/css/sections/base.css') }}"
+        {{-- <link rel="stylesheet" href="{{ asset('frontend/infixlmstheme/css/sections/base.css') }}"
               data-type="aoraeditor-style"> --}}
 
 
-        <link rel="stylesheet" href="{{ asset('public/css/preloader.css') }}"/>
-        <link rel="stylesheet" href="{{ asset('public/frontend/infixlmstheme/css/custom.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/preloader.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('frontend/infixlmstheme/css/custom.css') }}">
 
     @elseif($currentTheme=='edume')
         @if(isRtl())
-            <link rel="stylesheet" href="{{ asset('public') }}/css/bootstrap.rtl.min.css">
+            <link rel="stylesheet" href="{{ asset(') }}/css/bootstrap.rtl.min.css">
         @else
-            <link rel="stylesheet" href="{{ asset('public') }}/css/bootstrap.min.css">
+            <link rel="stylesheet" href="{{ asset(') }}/css/bootstrap.min.css">
         @endif
         <link rel="stylesheet" type="text/css" data-type="aoraeditor-style"
-              href="{{ asset('public/frontend/infixlmstheme/css/frontend_style.css') . assetVersion() }}">
+              href="{{ asset('frontend/infixlmstheme/css/frontend_style.css') . assetVersion() }}">
 
-        {{-- <link rel="stylesheet" href="{{ asset('public/frontend/edume') }}/css/nice-select.css"> --}}
-        <link rel="stylesheet" href="{{ asset('public/frontend/edume') }}/css/zeynep.min.css">
-        {{--        <link rel="stylesheet" href="{{ asset('public/frontend/edume') }}/css/slick.css">--}}
+        {{-- <link rel="stylesheet" href="{{ asset('frontend/edume') }}/css/nice-select.css"> --}}
+        <link rel="stylesheet" href="{{ asset('frontend/edume') }}/css/zeynep.min.css">
+        {{--        <link rel="stylesheet" href="{{ asset('frontend/edume') }}/css/slick.css">--}}
 
-        {{-- <link rel="stylesheet" href="{{ asset('public/frontend/edume') }}/css/slicknav.css"> --}}
+        {{-- <link rel="stylesheet" href="{{ asset('frontend/edume') }}/css/slicknav.css"> --}}
 
-        <link rel="stylesheet" href="{{ asset('public/frontend/edume') }}/css/style.css"/>
-        <link rel="stylesheet" href="{{ asset('public/frontend/edume') }}/css/dynamic_page.css"/>
+        <link rel="stylesheet" href="{{ asset('frontend/edume') }}/css/style.css"/>
+        <link rel="stylesheet" href="{{ asset('frontend/edume') }}/css/dynamic_page.css"/>
 
     @elseif($currentTheme=='kidslms')
         <link rel="stylesheet" href="{{themeAsset('css')}}/bootstrap.min.css">
@@ -117,14 +117,14 @@
     <style>
 
     </style>
-    <script src="{{ asset('public/js/common.js') }}{{assetVersion()}}"></script>
-    <script src="{{asset('public/frontend/infixlmstheme')}}/js/common.js{{assetVersion()}}"></script>
+    <script src="{{ asset('js/common.js') }}{{assetVersion()}}"></script>
+    <script src="{{asset('frontend/infixlmstheme')}}/js/common.js{{assetVersion()}}"></script>
 
     <script type="text/javascript"
-            src="{{ asset('public/frontend/infixlmstheme/js/jquery.lazy.min.js') }}"></script>
+            src="{{ asset('frontend/infixlmstheme/js/jquery.lazy.min.js') }}"></script>
 
 
-    <link rel="stylesheet" href="{{ asset('public/css/preloader.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/preloader.css') }}"/>
 
     <x-analytics-tool/>
 
@@ -134,17 +134,17 @@
 <body>
 @include('preloader')
 @if (str_contains(request()->url(), 'chat'))
-    <link rel="stylesheet" href="{{ asset('public/backend/css/jquery-ui.css') }}{{ assetVersion() }}"/>
-    <link rel="stylesheet" href="{{ asset('public/backend/vendors/select2/select2.css') }}{{ assetVersion() }}"/>
-    <link rel="stylesheet" href="{{ asset('public/chat/css/style-student.css') }}{{ assetVersion() }}">
+    <link rel="stylesheet" href="{{ asset('backend/css/jquery-ui.css') }}{{ assetVersion() }}"/>
+    <link rel="stylesheet" href="{{ asset('backend/vendors/select2/select2.css') }}{{ assetVersion() }}"/>
+    <link rel="stylesheet" href="{{ asset('chat/css/style-student.css') }}{{ assetVersion() }}">
 @endif
 
 @if (auth()->check() && auth()->user()->role_id == 3 && !str_contains(request()->url(), 'chat'))
-    <link rel="stylesheet" href="{{ asset('public/chat/css/notification.css') }}{{ assetVersion() }}">
+    <link rel="stylesheet" href="{{ asset('chat/css/notification.css') }}{{ assetVersion() }}">
 @endif
 
 @if (isModuleActive('WhatsappSupport'))
-    <link rel="stylesheet" href="{{ asset('public/whatsapp-support/style.css') }}{{ assetVersion() }}">
+    <link rel="stylesheet" href="{{ asset('whatsapp-support/style.css') }}{{ assetVersion() }}">
 @endif
 
 <script>
@@ -201,19 +201,19 @@
 </div>
 
 
-<script type="text/javascript" src="{{ asset('Modules/AoraPageBuilder/Resources/assets/js/bootstrap.min.js') }}">
+<script type="text/javascript" src="{{ asset('Modules/AoraPageBuilder/js/bootstrap.min.js') }}">
 </script>
-<script type="text/javascript" src="{{ asset('Modules/AoraPageBuilder/Resources/assets/js/jquery-ui.min.js') }}">
+<script type="text/javascript" src="{{ asset('Modules/AoraPageBuilder/js/jquery-ui.min.js') }}">
 </script>
-<script type="text/javascript" src="{{ asset('Modules/AoraPageBuilder/Resources/assets/js/ckeditor.js') }}"></script>
+<script type="text/javascript" src="{{ asset('Modules/AoraPageBuilder/js/ckeditor.js') }}"></script>
 <script type="text/javascript"
-        src="{{asset('Modules/AoraPageBuilder/Resources/assets/js/form-builder.min.js')}}"></script>
+        src="{{asset('Modules/AoraPageBuilder/js/form-builder.min.js')}}"></script>
 <script type="text/javascript"
-        src="{{asset('Modules/AoraPageBuilder/Resources/assets/js/form-render.min.js')}}"></script>
-<script type="text/javascript" src="{{ asset('Modules/AoraPageBuilder/Resources/assets/js/aoraeditor.js') }}"></script>
+        src="{{asset('Modules/AoraPageBuilder/js/form-render.min.js')}}"></script>
+<script type="text/javascript" src="{{ asset('Modules/AoraPageBuilder/js/aoraeditor.js') }}"></script>
 
 <script type="text/javascript"
-        src="{{ asset('Modules/AoraPageBuilder/Resources/assets/js/aoraeditor-components.js') }}"></script>
+        src="{{ asset('Modules/AoraPageBuilder/js/aoraeditor-components.js') }}"></script>
 
 
 @yield('scripts')

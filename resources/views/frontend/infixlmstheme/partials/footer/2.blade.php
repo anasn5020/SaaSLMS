@@ -5,7 +5,7 @@
     use Modules\SystemSetting\Entities\SocialLink;
 @endphp
 
-<link rel="stylesheet" href="{{asset('public/frontend/infixlmstheme/css/homepageV7/footer-v7.css')}}">
+<link rel="stylesheet" href="{{asset('frontend/infixlmstheme/css/homepageV7/footer-v7.css')}}">
 @php
     $newsletterSetting = Cache::rememberForever('newsletterSetting_' . SaasDomain(), function () {
             return DB::table('newsletter_settings')

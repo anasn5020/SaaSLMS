@@ -78,7 +78,7 @@ if (!function_exists('getCourseImage')) {
         if (File::exists($path)) {
             return asset($path);
         } else {
-            return asset(currentTheme() == 'wetech' ? 'public/frontend/wetech/img/default/course.png' : 'public/assets/course/no_image.png');
+            return asset(currentTheme() == 'wetech' ? 'frontend/wetech/img/default/course.png' : 'assets/course/no_image.png');
         }
     }
 }
@@ -89,7 +89,7 @@ if (!function_exists('getQuizImage')) {
         if (File::exists($path)) {
             return asset($path);
         } else {
-            return asset(currentTheme() == 'wetech' ? 'public/frontend/wetech/img/default/course.png' : 'public/assets/course/no_image.png');
+            return asset(currentTheme() == 'wetech' ? 'frontend/wetech/img/default/course.png' : 'assets/course/no_image.png');
         }
     }
 }
@@ -99,7 +99,7 @@ if (!function_exists('getVirtualClassImage')) {
         if (File::exists($path)) {
             return asset($path);
         } else {
-            return asset(currentTheme() == 'wetech' ? 'public/frontend/wetech/img/default/virtual_class.png' : 'public/assets/course/no_image.png');
+            return asset(currentTheme() == 'wetech' ? 'frontend/wetech/img/default/virtual_class.png' : 'assets/course/no_image.png');
         }
     }
 }
@@ -110,7 +110,7 @@ if (!function_exists('getForumImage')) {
         if (File::exists($path)) {
             return asset($path);
         } else {
-            return asset(currentTheme() == 'wetech' ? 'public/frontend/wetech/img/default/forum.png' : 'public/assets/course/no_image.png');
+            return asset(currentTheme() == 'wetech' ? 'frontend/wetech/img/default/forum.png' : 'assets/course/no_image.png');
         }
 
     }
@@ -121,7 +121,7 @@ if (!function_exists('getBlogImage')) {
         if (File::exists($path)) {
             return asset($path);
         } else {
-            return asset(currentTheme() == 'wetech' ? 'public/frontend/wetech/img/default/news.png' : 'public/assets/course/no_image.png');
+            return asset(currentTheme() == 'wetech' ? 'frontend/wetech/img/default/news.png' : 'assets/course/no_image.png');
 
         }
     }
@@ -133,7 +133,7 @@ if (!function_exists('getLogoImage')) {
         if (File::exists($path)) {
             return asset($path);
         } else {
-            return asset('public/uploads/settings/logo.png');
+            return asset('uploads/settings/logo.png');
         }
     }
 }
@@ -145,9 +145,9 @@ if (!function_exists('showImage')) {
             return asset($path);
         } else {
             if ($type == 'cover_photo') {
-                return asset('public/assets/profile/cover.jpg');
+                return asset('assets/profile/cover.jpg');
             }
-            return asset('public/assets/profile/dummy.png');
+            return asset('assets/profile/dummy.png');
         }
     }
 }
@@ -159,17 +159,17 @@ if (!function_exists('showPreview')) {
             return asset($path);
         } else {
             if ($type == 'image') {
-                return asset('public/preview/image.png');
+                return asset('preview/image.png');
             } elseif ($type == 'video') {
-                return asset('public/preview/video.png');
+                return asset('preview/video.png');
             } elseif ($type == 'pdf') {
-                return asset('public/preview/pdf.png');
+                return asset('preview/pdf.png');
             } elseif ($type == 'zip') {
-                return asset('public/preview/zip.png');
+                return asset('preview/zip.png');
             } elseif ($type == 'doc') {
-                return asset('public/preview/doc.png');
+                return asset('preview/doc.png');
             } else {
-                return asset('public/preview/invalid.png');
+                return asset('preview/invalid.png');
             }
         }
     }
@@ -182,7 +182,7 @@ if (!function_exists('getBlogImage')) {
         if (File::exists($path)) {
             return asset($path);
         } else {
-            return asset('public/demo/blog/no-image.jpg');
+            return asset('demo/blog/no-image.jpg');
         }
     }
 }
@@ -673,7 +673,7 @@ if (!function_exists('themeAsset')) {
             } else {
                 $theme = 'infixlmstheme';
             }
-            $path = 'public/frontend/' . $theme . '/' . $fileName;
+            $path = 'frontend/' . $theme . '/' . $fileName;
             return asset($path);
         } catch (Exception $e) {
             return '';

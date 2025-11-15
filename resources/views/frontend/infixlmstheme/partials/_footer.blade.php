@@ -131,12 +131,12 @@
         </div>
     </div>
 
-    <script src="{{asset('public/frontend/infixlmstheme/js/app.js'.assetVersion())}}"></script>
+    <script src="{{asset('frontend/infixlmstheme/js/app.js'.assetVersion())}}"></script>
 
-    <script src="{{asset('public/backend/js/summernote-bs5.min.js')}}{{assetVersion()}}"></script>
+    <script src="{{asset('backend/js/summernote-bs5.min.js')}}{{assetVersion()}}"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key={{Settings('gmap_key') }}"></script>
-    <script src="{{ asset('public/frontend/infixlmstheme/js/map.js') }}"></script>
-    <script src="{{asset('public/frontend/infixlmstheme/js/contact.js')}}{{assetVersion()}}"></script>
+    <script src="{{ asset('frontend/infixlmstheme/js/map.js') }}"></script>
+    <script src="{{asset('frontend/infixlmstheme/js/contact.js')}}{{assetVersion()}}"></script>
 
     {!! Toastr::message() !!}
 
@@ -153,8 +153,8 @@
 
 
     @if (isModuleActive("Store"))
-        <script src="{{asset('public/frontend/infixlmstheme/js/store_script.js')}}{{assetVersion()}}"></script>
-        <script src="{{asset('public/frontend/infixlmstheme/js/select2.min.js')}}{{assetVersion()}}"></script>
+        <script src="{{asset('frontend/infixlmstheme/js/store_script.js')}}{{assetVersion()}}"></script>
+        <script src="{{asset('frontend/infixlmstheme/js/select2.min.js')}}{{assetVersion()}}"></script>
     @endif
 
     @yield('js')
@@ -242,25 +242,25 @@
 
 
     @if(str_contains(request()->url(), 'chat'))
-        <script src="{{asset('public/backend/js/jquery-ui.js')}}{{assetVersion()}}"></script>
-        <script src="{{asset('public/frontend/infixlmstheme/js/select2.min.js')}}{{assetVersion()}}"></script>
-        <script src="{{ asset('public/js/app.js') }}{{assetVersion()}}"></script>
-        <script src="{{ asset('public/chat/js/custom.js') }}{{assetVersion()}}"></script>
+        <script src="{{asset('backend/js/jquery-ui.js')}}{{assetVersion()}}"></script>
+        <script src="{{asset('frontend/infixlmstheme/js/select2.min.js')}}{{assetVersion()}}"></script>
+        <script src="{{ asset('js/app.js') }}{{assetVersion()}}"></script>
+        <script src="{{ asset('chat/js/custom.js') }}{{assetVersion()}}"></script>
     @endif
 
     @if(auth()->check() && auth()->user()->role_id == 3 && !str_contains(request()->url(), 'chat'))
-        <script src="{{ asset('public/js/app.js') }}{{assetVersion()}}"></script>
+        <script src="{{ asset('js/app.js') }}{{assetVersion()}}"></script>
     @endif
 
 
     @if(isModuleActive("WhatsappSupport"))
-        <script src="{{ asset('public/whatsapp-support/scripts.js') }}{{assetVersion()}}"></script>
+        <script src="{{ asset('whatsapp-support/scripts.js') }}{{assetVersion()}}"></script>
 
         @include('whatsappsupport::partials._popup')
 
     @endif
 
-    <script src="{{ asset('public/frontend/infixlmstheme/js/custom.js') }}{{assetVersion()}}"></script>
+    <script src="{{ asset('frontend/infixlmstheme/js/custom.js') }}{{assetVersion()}}"></script>
     @if(Settings('gamification_status') && Settings('gamification_leaderboard_status'))
         <script>
             $(document).on("change", ".leaderboard_filter", function () {
@@ -338,7 +338,7 @@
 
     @if (Settings('real_time_qa_update') == 1)
 
-        <script src="{{asset('public/js/pusher.min.js')}}"></script>
+        <script src="{{asset('js/pusher.min.js')}}"></script>
 
         <script>
 

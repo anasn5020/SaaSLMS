@@ -66,31 +66,31 @@
 
     @if(isRtl())
         <link rel="stylesheet"
-              href="{{ asset('public/frontend/infixlmstheme') }}/css/bootstrap.rtl.min.css{{assetVersion()}} ">
+              href="{{ asset('frontend/infixlmstheme') }}/css/bootstrap.rtl.min.css{{assetVersion()}} ">
     @else
         <link rel="stylesheet"
-              href="{{ asset('public/frontend/infixlmstheme') }}/css/bootstrap.min.css{{assetVersion()}} ">
+              href="{{ asset('frontend/infixlmstheme') }}/css/bootstrap.min.css{{assetVersion()}} ">
     @endif
 
-    <link rel="stylesheet" href="{{asset('public/backend/css/themify-icons.css')}}{{assetVersion()}}"/>
-    <link rel="stylesheet" href="{{ asset('public/frontend/infixlmstheme') }}/css/notification.css{{assetVersion()}}">
-    <link rel="stylesheet" href="{{ asset('public/frontend/infixlmstheme/css/mega_menu.css') }}">
+    <link rel="stylesheet" href="{{asset('backend/css/themify-icons.css')}}{{assetVersion()}}"/>
+    <link rel="stylesheet" href="{{ asset('frontend/infixlmstheme') }}/css/notification.css{{assetVersion()}}">
+    <link rel="stylesheet" href="{{ asset('frontend/infixlmstheme/css/mega_menu.css') }}">
 
-    <link href="{{asset('public/backend/css/summernote-bs5.min.css')}}{{assetVersion()}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('public/css/preloader.css')}}{{assetVersion()}}"/>
+    <link href="{{asset('backend/css/summernote-bs5.min.css')}}{{assetVersion()}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('css/preloader.css')}}{{assetVersion()}}"/>
 
     @if(str_contains(request()->url(), 'chat'))
-        <link rel="stylesheet" href="{{asset('public/backend/css/jquery-ui.css')}}{{assetVersion()}}"/>
-        <link rel="stylesheet" href="{{asset('public/backend/vendors/select2/select2.css')}}{{assetVersion()}}"/>
-        <link rel="stylesheet" href="{{asset('public/chat/css/style-student.css')}}{{assetVersion()}}">
+        <link rel="stylesheet" href="{{asset('backend/css/jquery-ui.css')}}{{assetVersion()}}"/>
+        <link rel="stylesheet" href="{{asset('backend/vendors/select2/select2.css')}}{{assetVersion()}}"/>
+        <link rel="stylesheet" href="{{asset('chat/css/style-student.css')}}{{assetVersion()}}">
     @endif
 
     @if(auth()->check() && auth()->user()->role_id == 3 && !str_contains(request()->url(), 'chat'))
-        <link rel="stylesheet" href="{{asset('public/chat/css/notification.css')}}{{assetVersion()}}">
+        <link rel="stylesheet" href="{{asset('chat/css/notification.css')}}{{assetVersion()}}">
     @endif
 
     @if(isModuleActive("WhatsappSupport"))
-        <link rel="stylesheet" href="{{ asset('public/whatsapp-support/style.css') }}{{assetVersion()}}">
+        <link rel="stylesheet" href="{{ asset('whatsapp-support/style.css') }}{{assetVersion()}}">
     @endif
     <script>
         window.Laravel = {
@@ -147,22 +147,22 @@
     <input type="hidden" name="slider_transition_time" id="slider_transition_time"
            value="{{Settings('slider_transition_time')?Settings('slider_transition_time'):5}}">
 
-    <link rel="stylesheet" href="{{ asset('public/frontend/infixlmstheme') }}/css/app.css{{assetVersion()}}"
+    <link rel="stylesheet" href="{{ asset('frontend/infixlmstheme') }}/css/app.css{{assetVersion()}}"
           media="screen,print">
 
     @if(isRtl())
         <link rel="stylesheet"
-              href="{{ asset('public/frontend/infixlmstheme') }}/css/frontend_style_rtl.css{{assetVersion()}}"
+              href="{{ asset('frontend/infixlmstheme') }}/css/frontend_style_rtl.css{{assetVersion()}}"
               media="screen,print">
     @else
         <link rel="stylesheet"
-              href="{{ asset('public/frontend/infixlmstheme') }}/css/frontend_style.css{{assetVersion()}}"
+              href="{{ asset('frontend/infixlmstheme') }}/css/frontend_style.css{{assetVersion()}}"
               media="screen,print">
     @endif
-    <script src="{{asset('public/frontend/infixlmstheme')}}/js/common.js{{assetVersion()}}"></script>
+    <script src="{{asset('frontend/infixlmstheme')}}/js/common.js{{assetVersion()}}"></script>
     @yield('css')
 
-    <link rel="stylesheet" href="{{ asset('public/frontend/infixlmstheme/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/infixlmstheme/css/custom.css') }}">
 
     {{--    //analytics tools--}}
     <x-analytics-tool/>

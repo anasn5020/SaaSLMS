@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="col-md-6 order-1 order-md-2 text-center banner-image">
-                    <img src="{{asset('public/frontend/infixlmstheme/img/banner/banner-default.jpg')}}"
+                    <img src="{{asset('frontend/infixlmstheme/img/banner/banner-default.jpg')}}"
                          alt="banner">
                 </div>
             </div>

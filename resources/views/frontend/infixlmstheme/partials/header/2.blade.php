@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="{{themeAsset('css/sections/homepage_v7.css')}}">
-<link rel="stylesheet" href="{{asset('public/frontend/infixlmstheme/css/homepageV7/header-v7.css')}}">
+<link rel="stylesheet" href="{{asset('frontend/infixlmstheme/css/homepageV7/header-v7.css')}}">
 
 <style>
     .heading-category-dropdown ul {

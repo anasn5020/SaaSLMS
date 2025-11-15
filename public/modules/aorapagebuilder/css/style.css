@@ -1,0 +1,545 @@
+html,
+body {
+    height: 100%;
+}
+
+[data-aoraeditor="html"] {
+    height: 100%;
+}
+
+#content-area {
+    min-height: 100%;
+}
+
+#content-area .aoraeditor-content-area {
+    min-height: 100%;
+}
+
+#header,
+#body,
+#footer {
+    padding: 30px;
+    margin: 20px;
+    border: 3px dashed #ccc;
+}
+
+.toolbar {
+    position: fixed;
+    z-index: 50;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.toolbar > * {
+    background: #fff;
+    border: solid #ddd;
+    border-width: 1px 1px 0 0;
+    padding: 6px 12px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+.toolbar > *:hover {
+    background: #f0f0f0;
+}
+
+pre.prettyprint {
+    padding: 12px;
+    border-color: #ddd;
+    border-radius: 0;
+    border-width: 0 1px 1px;
+    margin: 0;
+}
+
+#modal-content pre.prettyprint {
+    border-width: 1px;
+}
+
+.aoraeditor-btn.aoraeditor-btn-default,
+.aoraeditor-modal-close {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: var(--backend-primary-color, #556ee6) !important;
+    border-radius: 50%;
+    border: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.aoraeditor-modal-close {
+    background: var(--backend-primary-color, #556ee6) !important;
+}
+
+.aoraeditor-btn.aoraeditor-btn-default:hover,
+.aoraeditor-modal-close:hover,
+.aoraeditor-btn.aoraeditor-btn-default:active,
+.aoraeditor-btn.aoraeditor-btn-default:focus {
+    box-shadow: var(--popup_box_shadow);
+    background: var(--backend-primary-color, #556ee6) !important
+}
+
+.aoraeditor-modal {
+    /*width: 300px;*/
+    background-color: #34383c;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.aoraeditor-modal-header {
+    height: auto;
+    background-color: #34383c;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(130, 139, 178, 0.3) !important;
+}
+
+.aoraeditor-snippets-filter-label {
+    color: #fff;
+}
+
+.aoraeditor-ui.aoraeditor-snippets-filter-wrapper {
+    flex-direction: column;
+    padding: 0px 0 0 10px;
+}
+
+.form-control {
+    border: 1px solid var(--backend-border-color);
+    font-size: 14px;
+    color: #415094;
+    padding-left: 20px;
+    height: 40px;
+    border-radius: 3px;
+    width: 100%;
+    padding-right: 15px;
+    box-shadow: none;
+}
+
+.form-control::placeholder,
+.aoraeditor-snippets-filter-wrapper::placeholder {
+    color: #828bb2;
+}
+
+.form-control:focus,
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid var(--backend-border-color);
+}
+
+.aoraeditor-modal-header .aoraeditor-snippets-search {
+    width: 100%;
+    border-radius: 0;
+    height: 33px;
+    padding: 0 20px;
+    background-color: #4c4f56;
+    font-size: 11px;
+    padding: 10px 10px 10px 29px;
+    color: #fff;
+    border: none;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.aoraeditor-modal-header .aoraeditor-snippets-search::placeholder {
+    color: #e0e1e3;
+}
+
+.aoraeditor-modal-header .aoraeditor-snippets-filter,
+.aoraeditor-modal-header .aoraeditor-snippets-search {
+    background: #4c4f56;
+    padding: 0 15px;
+    height: 33px;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+select.aoraeditor-ui.aoraeditor-snippets-filter {
+    color: #e0e1e3;
+}
+
+.aoraeditor-snippet {
+    border: 0;
+    background: #404349;
+    width: 100%;
+    margin: 0;
+    border-radius: 3px;
+}
+
+span.aoraeditor-ui.aoraeditor-snippets-filter-label {
+    margin: 15px 0 10px 0;
+}
+
+.aoraeditor-snippet .aoraeditor-snippet-title {
+    height: 40px;
+    line-height: 40px;
+    /*color: #e0e1e3;*/
+    font-size: 11px;
+}
+
+.aoraeditor-snippets-wrapper .aoraeditor-snippets {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 10px;
+    padding-bottom: 30px;
+    overflow-y: auto;
+}
+
+.aoraeditor-modal-header .aoraeditor-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.aoraeditor-modal-body {
+    /*padding-bottom: 150px;*/
+}
+
+.aoraeditor-snippet .aoraeditor-snippet-inner {
+    padding: 32%;
+}
+
+.btn.btn-primary {
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 0px 20px;
+    outline: none !important;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    background: var(--backend-primary-color, #556ee6) !important
+}
+
+.btn.btn-primary:hover {
+    box-shadow: var(--popup_box_shadow);
+    background: var(--backend-primary-color, #556ee6) !important
+}
+
+.btn.btn-default {
+    display: inline-block;
+    color: var(--backend-primary-color, #556ee6) !important;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 0px 20px;
+    outline: none !important;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid var(--backend-primary-color, #556ee6) !important;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    background: #fff;
+}
+
+.btn.btn-default:hover {
+    box-shadow: var(--popup_box_shadow);
+    background: var(--backend-primary-color) !important;
+    color: #fff !important;
+}
+
+.aoraeditor-container > .aoraeditor-container-inner::before {
+    border: 2px dashed #d5dadf;
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.aoraeditor-container-content::before {
+    border: 1px dashed #d5dadf;
+}
+
+.aoraeditor-container.showed-aoraeditor-toolbar > .aoraeditor-container-inner::before {
+    border-color: #d5dadf;
+}
+
+/*.aoraeditor-snippet.selected {*/
+/*    border-color: var(--backend-primary-color);*/
+/*    box-shadow: 0 0 0 2px var(--backend-primary-color);*/
+/*}*/
+
+.aoraeditor-ui.aoraeditor-snippets-filter-wrapper {
+    padding: 0px 0 0 0px;
+}
+
+.aoraeditor-wrapper {
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    padding-top: 100px;
+    background: #fff;
+}
+
+.cke_browser_gecko {
+    display: flex !important;
+    align-items: center;
+    padding-top: 53px !important;
+    top: 100px !important;
+}
+
+.aoraeditor-ui.aoraeditor-topbar {
+    top: 0;
+    right: 0;
+    z-index: 111;
+    display: flex;
+    opacity: 1;
+    z-index: 10000;
+}
+
+.aoraeditor-modal {
+    /*display: block !important;*/
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.toolbar {
+    left: 300px;
+}
+
+.aoraeditor-ui.btn-add-content {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: var(--backend-primary-color) !important;
+    border-radius: 50%;
+    border: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 50% !important;
+    text-decoration: none !important;
+}
+
+.aoraeditor-toolbar.aoraeditor-toolbar-bottom {
+    border-radius: 50% 50% 0 0 !important;
+    background: var(--backend-primary-color) !important;
+}
+
+.aoraeditor-component:hover::before {
+    border-color: var(--backend-primary-color, #556ee6) !important
+}
+
+.aoraeditor-component::before {
+    border: 1px dashed transparent;
+}
+
+.aoraeditor-component:hover::before {
+    border-color: var(--backend-primary-color, #556ee6) !important
+}
+
+.aoraeditor-component .aoraeditor-toolbar {
+    background-color: #495157;
+    border-bottom-right-radius: 3px;
+}
+
+.aoraeditor-ui.aoraeditor-toolbar.aoraeditor-toolbar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aoraeditor-toolbar > a {
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #495157;
+}
+
+.aoraeditor-container > .aoraeditor-toolbar {
+    top: -2px;
+    left: -25px;
+    border-radius: 3px 0 0 3px;
+}
+
+.aoraeditor-container > .aoraeditor-toolbar > a {
+    background: #495157;
+    color: #fff;
+}
+
+.aoraeditor-container > .aoraeditor-toolbar > a:hover {
+    background: var(--backend-primary-color, #556ee6) !important
+}
+
+.aoraeditor-component .aoraeditor-toolbar > a:hover {
+    background: var(--backend-primary-color, #556ee6) !important
+}
+
+.aoraeditor-modal-header .aoraeditor-modal-close {
+    display: none;
+}
+
+.aoraeditor-topbar {
+    background: #34383c;
+}
+
+.aoraeditor-modal-header {
+    background-color: #26292c;
+}
+
+/* cke_button  */
+.cke_toolbox a.cke_button {
+    display: inline-flex;
+    border: 1px solid var(--backend-border-color);
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.cke_toolbox .cke_toolbar_separator {
+    background-color: #eceef4;
+    margin: 0 5px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.cke_toolbox a.cke_button_disabled:hover,
+.cke_toolbox a.cke_button_disabled:focus,
+.cke_toolbox a.cke_button_disabled:active,
+.cke_toolbox a.cke_button_off:hover,
+.cke_toolbox a.cke_button_off:focus,
+.cke_toolbox a.cke_button_off:active {
+    background-color: transparent;
+    padding: 0;
+    border: 1px solid var(--backend-primary-color, #556ee6) !important
+}
+
+.cke_toolbox .cke_toolgroup a.cke_button:last-child::after,
+.cke_toolbox
+.cke_toolgroup
+a.cke_button.cke_button_disabled:hover:last-child::after {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 0;
+    border-right: 1px solid #eceef4;
+    margin-top: 0;
+    top: 0;
+    right: -8px;
+}
+
+.cke_toolbar {
+    margin: 0 4px;
+}
+
+.cke_toolbar a.cke_combo_button {
+    cursor: default;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 1px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid var(--backend-border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.cke_toolbar .cke_combo_text {
+    line-height: 30px;
+}
+
+.cke_toolbar a.cke_button_expandable.cke_button_off:hover,
+.cke_toolbar a.cke_button_expandable.cke_button_off:focus,
+.cke_toolbar a.cke_button_expandable.cke_button_off:active {
+    padding: 0;
+}
+
+.cke_toolbar .cke_combo {
+    margin-right: 8px;
+}
+
+.cke_toolbar .cke_combo::after {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 0;
+    border-right: 1px solid #eceef4;
+    margin-top: 5px;
+    top: 0;
+    right: -4px;
+    top: -4px;
+}
+
+.cke_toolbar .cke_button.cke_button_on {
+    border-color: var(--backend-primary-color) !important;
+}
+
+.cke_float {
+    z-index: 999999 !important;
+}
+
+.theme_search_field .input-group-prepend {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    left: 0 !important;
+}
+
+.theme_search_field .input-group-prepend button {
+    padding-left: 15px !important;
+}
+
+.theme_search_field input {
+    padding-left: 44px !important;
+}
+.quiz_wizged .thumb .prev_prise {
+    text-decoration: line-through;
+    color: var(--system_secendory_color);
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.quiz_wizged .thumb .prise_tag {
+    top: 20px;
+    right: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border-radius: 50%;
+    min-height: 70px;
+    min-width: 70px !important;
+}
+
+html[dir="rtl"] .quiz_wizged .thumb .prise_tag {
+    left: 20px;
+    right: auto;
+}

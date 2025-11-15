@@ -14,8 +14,8 @@ class CustomStyleScriptController extends Controller
 
     public function __construct()
     {
-        $this->css_path = 'public/frontend/' . currentTheme() . '/css/custom.css';
-        $this->js_path = 'public/frontend/' . currentTheme() . '/js/custom.js';
+        $this->css_path = 'frontend/' . currentTheme() . '/css/custom.css';
+        $this->js_path = 'frontend/' . currentTheme() . '/js/custom.js';
     }
 
     public function index()
