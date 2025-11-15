@@ -1,7 +1,7 @@
 @extends('backend.master')
 
 @push('styles')
-    <link rel="stylesheet" href="{{asset('public/backend/css/theme.css')}}"/>
+    <link rel="stylesheet" href="{{asset('backend/css/theme.css')}}"/>
 @endpush
 @section('mainContent')
     {!! generateBreadcrumb() !!}
@@ -210,10 +210,10 @@
     </div>
 @endsection
 @push('scripts')
-    <script src="{{asset('public/backend/js/module.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('public/vendor/spondonit/js/parsley.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('public/vendor/spondonit/js/function.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('public/vendor/spondonit/js/common.js') }}"></script>
+    <script src="{{asset('backend/js/module.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('vendor/spondonit/js/parsley.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('vendor/spondonit/js/function.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('vendor/spondonit/js/common.js') }}"></script>
     <script type="text/javascript">
         _formValidation('content_form');
     </script>

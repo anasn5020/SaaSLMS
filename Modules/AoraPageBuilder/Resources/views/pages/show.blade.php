@@ -14,7 +14,7 @@
         <script src="{{asset('frontend/infixlmstheme/js/blogs.js')}}"></script>
     @elseif($route=='contact')
 {{--        <script src="https://maps.googleapis.com/maps/api/js?key={{Settings('gmap_key') }}"></script>--}}
-{{--        <script src="{{ asset('public/frontend/infixlmstheme') }}/js/map.js"></script>--}}
+{{--        <script src="{{ asset('frontend/infixlmstheme') }}/js/map.js"></script>--}}
     @else
         <script src="{{asset('frontend/infixlmstheme/js/courses.js'.assetVersion())}}"></script>
     @endif

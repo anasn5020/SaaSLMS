@@ -264,7 +264,7 @@
             });
         }
     </script>
-    <script src="{{asset('public/backend/js/language.js')}}"></script>
+    <script src="{{asset('backend/js/language.js')}}"></script>
     <script type="application/javascript">
 
 

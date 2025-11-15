@@ -3,7 +3,7 @@
     {{__('testimonials')}}
 @endsection
 @push('styles')
-    <link href="{{asset('public/backend/vendors/nestable/jquery.nestable.min.css')}}" rel="stylesheet">
+    <link href="{{asset('backend/vendors/nestable/jquery.nestable.min.css')}}" rel="stylesheet">
     <style>
         .row > .accordion {
             max-width: 100% !important;
@@ -3354,7 +3354,7 @@
 
 @endsection
 @push('scripts')
-    <script src="{{asset('public/backend/vendors/nestable/jquery.nestable.min.js')}}"></script>
+    <script src="{{asset('backend/vendors/nestable/jquery.nestable.min.js')}}"></script>
     <script>
         let show_why_choose = $('#show_why_choose');
         let whyChooseBox = $('#show_home_page_why_choose_box');

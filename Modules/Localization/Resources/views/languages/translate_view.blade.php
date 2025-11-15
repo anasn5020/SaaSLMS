@@ -104,7 +104,7 @@
            value="{{ route('language.get_translate_file') }}">
 @endsection
 @push('scripts')
-    <script src="{{asset('public/backend/js/language.js')}}"></script>
+    <script src="{{asset('backend/js/language.js')}}"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {

@@ -1,5 +1,5 @@
 @extends('backend.master')
-<link rel="stylesheet" href="{{asset('public/backend/')}}/approved_deposit.css{{assetVersion()}}">
+<link rel="stylesheet" href="{{asset('backend/')}}/approved_deposit.css{{assetVersion()}}">
 @section('mainContent')
     {!! generateBreadcrumb() !!}
     <section class="admin-visitor-area">

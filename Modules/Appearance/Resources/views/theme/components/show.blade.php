@@ -1,7 +1,7 @@
 @extends('backend.master')
 
 @push('styles')
-    <link rel="stylesheet" href="{{asset('public/backend/css/theme.css')}}"/>
+    <link rel="stylesheet" href="{{asset('backend/css/theme.css')}}"/>
 @endpush
 @section('mainContent')
     <!--suppress Annotator -->

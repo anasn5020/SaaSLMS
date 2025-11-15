@@ -287,15 +287,15 @@
         </div>
 
     </section>
-    <script src="{{asset('public/backend/js/blog_list.js')}}"></script>
+    <script src="{{asset('backend/js/blog_list.js')}}"></script>
 
 @endsection
 
 @push('scripts')
 
     <script src="{{asset('Modules/Blog/Resources/views/assets/taginput/tagsinput.js')}}"></script>
-    <script src="{{asset('public/js/wordcut.min.js')}}"></script>
-    <script src="{{asset('public/backend/js/summernote-word-count.js')}}"></script>
+    <script src="{{asset('js/wordcut.min.js')}}"></script>
+    <script src="{{asset('backend/js/summernote-word-count.js')}}"></script>
 
     <script>
         $('#selectBranch').on('hidden.bs.modal', function () {

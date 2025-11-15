@@ -1,6 +1,6 @@
 @extends('backend.master')
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('public/backend/css/daterangepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('backend/css/daterangepicker.css') }}">
 @endpush
 @php
     $table_name='course_reveiws';
@@ -150,8 +150,8 @@
 @endsection
 @push('scripts')
 
-    <script src="{{asset('public/backend/js/daterangepicker.min.js')}}"></script>
-    <script src="{{asset('public/modules/common/date_range_init.js')}}"></script>
+    <script src="{{asset('backend/js/daterangepicker.min.js')}}"></script>
+    <script src="{{asset('modules/common/date_range_init.js')}}"></script>
 
 
     @php

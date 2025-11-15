@@ -1,6 +1,6 @@
 @extends('backend.master')
 @push('styles')
-    <link rel="stylesheet" href="{{asset('public/backend/css/certificate.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/css/certificate.css')}}">
 @endpush
 @section('mainContent')
     {!! generateBreadcrumb() !!}
@@ -47,8 +47,8 @@
 
 @push('scripts')
     <script src="{{asset('/')}}/Modules/CourseSetting/Resources/assets/js/course.js"></script>
-    <script src="{{asset('public/backend/js/certificate.js')}}"></script>
-    <script src="{{asset('public/js/html2pdf.bundle.js')}}"></script>
+    <script src="{{asset('backend/js/certificate.js')}}"></script>
+    <script src="{{asset('js/html2pdf.bundle.js')}}"></script>
 
     <script type="application/javascript">
 

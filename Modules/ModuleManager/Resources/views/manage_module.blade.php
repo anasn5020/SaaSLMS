@@ -2,7 +2,7 @@
 @extends('backend.master')
 @section('mainContent')
     <link rel="stylesheet" href="{{asset('Modules/ModuleManager/Resources/assets/sass/manage_module.css')}}">
-    <link rel="stylesheet" href="{{ asset('public/vendor/spondonit/css/parsley.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/spondonit/css/parsley.css') }}">
 
     <style>
         .check_box_table .QA_table .table tbody td:nth-child(2) {
@@ -135,7 +135,7 @@
                                                         <div id="waiting_loader"
                                                              class="waiting_loader{{@$module->name}}">
                                                             <img
-                                                                src="{{asset('public/backend/img/demo_wait.gif')}}"
+                                                                src="{{asset('backend/img/demo_wait.gif')}}"
                                                                 width="20" height="20"/><br>
 
                                                         </div>
@@ -340,10 +340,10 @@
     </div>
 @endsection
 @push('scripts')
-    <script src="{{asset('public/backend/js/module.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('public/vendor/spondonit/js/parsley.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('public/vendor/spondonit/js/function.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('public/vendor/spondonit/js/common.js') }}"></script>
+    <script src="{{asset('backend/js/module.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('vendor/spondonit/js/parsley.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('vendor/spondonit/js/function.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('vendor/spondonit/js/common.js') }}"></script>
     <script type="text/javascript">
         _formValidation('content_form');
     </script>

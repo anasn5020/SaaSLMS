@@ -1,6 +1,6 @@
 @extends('backend.master')
 @push('styles')
-    <link href="{{asset('public/backend/css/cloudEdit.min.css')}}" rel="stylesheet">
+    <link href="{{asset('backend/css/cloudEdit.min.css')}}" rel="stylesheet">
 @endpush
 @section('mainContent')
 
@@ -126,8 +126,8 @@
 @endsection
 
 @push('scripts')
-    <script src="{{asset('public/backend/js/ace/ace.js')}}" type="text/javascript" charset="utf-8"></script>
-    <script src="{{asset('public/backend/js/cloudEdit.js')}}" type="text/javascript" charset="utf-8"></script>
+    <script src="{{asset('backend/js/ace/ace.js')}}" type="text/javascript" charset="utf-8"></script>
+    <script src="{{asset('backend/js/cloudEdit.js')}}" type="text/javascript" charset="utf-8"></script>
     <script>
         let js_btn = '#jsSectionBtn';
         let css_btn = '#cssSectionBtn';

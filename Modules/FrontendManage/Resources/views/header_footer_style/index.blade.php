@@ -43,7 +43,7 @@ if (!$selectedHeader){
                                                     <input type="radio" name="header"
                                                            id="header{{$style['id']}}"
                                                            {{$style['id']==$selectedHeader? 'checked':''}} class="headerCheck"
-                                                           data-preview="{{asset('public/header-footer/header'.$style['id'].'.jpg')}}"
+                                                           data-preview="{{asset('header-footer/header'.$style['id'].'.jpg')}}"
                                                            value="{{$style['id']}}">
                                                     <span class="checkmark"></span>
                                                 </label>
@@ -59,7 +59,7 @@ if (!$selectedHeader){
                                                 <label class="primary_checkbox d-flex">
                                                     <input type="radio" name="footer"
                                                            id="footer{{$style['id']}}"
-                                                           data-preview="{{asset('public/header-footer/footer'.$style['id'].'.jpg')}}"
+                                                           data-preview="{{asset('header-footer/footer'.$style['id'].'.jpg')}}"
                                                            {{$style['id']==$selectedFooter? 'checked':''}} class="footerCheck"
                                                            value="{{$style['id']}}">
                                                     <span class="checkmark"></span>
@@ -72,10 +72,10 @@ if (!$selectedHeader){
 
                                 <div class="col-md-6">
                                     <h2>{{__('frontend.Preview')}}</h2>
-                                    <img src="{{asset('public/header-footer/header'.$selectedHeader.'.jpg')}}"
+                                    <img src="{{asset('header-footer/header'.$selectedHeader.'.jpg')}}"
                                          class="w-100 headerPreview" alt="">
                                     <br><br>
-                                    <img src="{{asset('public/header-footer/footer'.$selectedFooter.'.jpg')}}"
+                                    <img src="{{asset('header-footer/footer'.$selectedFooter.'.jpg')}}"
                                          class="w-100 footerPreview" alt="">
                                 </div>
                             </div>

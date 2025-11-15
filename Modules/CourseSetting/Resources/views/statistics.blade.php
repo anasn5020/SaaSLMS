@@ -20,7 +20,7 @@
 
 @extends('backend.master')
 @push('styles')
-    <link rel="stylesheet" href="{{asset('public/backend/css/student_list.css')}}"/>
+    <link rel="stylesheet" href="{{asset('backend/css/student_list.css')}}"/>
     <style>
         .progress-bar {
             background-color: #9734f2;
@@ -309,7 +309,7 @@
     </div>
 @endsection
 @push('scripts')
-    <script src="{{asset('public/backend/vendors/chartlist/Chart.min.js')}}"></script>
+    <script src="{{asset('backend/vendors/chartlist/Chart.min.js')}}"></script>
 
     <script>
         @if($type==1)

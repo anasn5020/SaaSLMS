@@ -36,7 +36,7 @@
                                     <div class=" col-xl-6  col-sm-6  col-md-6  col-lg-6  text-start">
                                         <img
                                             style="display:{{isset($certificate->user_image)?$certificate->user_image==1?'block':'none':'none'}};margin-left: {{isset($certificate->position_image)?$certificate->position_image:'0'}}%"
-                                            src="{{asset('public/uploads/staff/user.png')}}"
+                                            src="{{asset('uploads/staff/user.png')}}"
                                             height="{{isset($certificate->image_height)?$certificate->image_height:'0'}}px"
                                             id="user_image" alt="user_image">
                                     </div>

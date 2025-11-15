@@ -66,7 +66,7 @@
 
     {{--    <script src="{{asset('/')}}/Modules/CourseSetting/Resources/assets/js/course.js"></script>--}}
 
-    <script src="{{asset('public/js/pusher.min.js')}}"></script>
+    <script src="{{asset('js/pusher.min.js')}}"></script>
     <script>
         Pusher.logToConsole = false;
         let pusher = new Pusher('{{config('broadcasting.connections.pusher.key')}}', {

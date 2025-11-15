@@ -182,7 +182,7 @@
 @push('scripts')
 
     <input type="hidden" class="notification_channel" value="question-answer-channel">
-    <script src="{{asset('public/js/pusher.min.js')}}"></script>
+    <script src="{{asset('js/pusher.min.js')}}"></script>
     <script>
 
         // Pusher.logToConsole = true;

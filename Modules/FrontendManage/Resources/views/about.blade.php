@@ -9,7 +9,7 @@
     @endphp
     <style>
         .couter_boxs::before {
-            background-image: url('{{asset('public/frontned/edume/img/about/counter_bg.png')}}');
+            background-image: url('{{asset('frontned/edume/img/about/counter_bg.png')}}');
         }
     </style>
     {!! generateBreadcrumb() !!}
